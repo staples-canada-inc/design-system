@@ -1,0 +1,26 @@
+{
+    "plugins": [
+        "@babel/plugin-syntax-dynamic-import",
+        "lodash",
+        [
+            "module-resolver",
+            {
+                "extensions": [".ts", ".tsx"],
+                "root": ["./src/theme"],
+                "alias": {
+                    "~utils": "src/theme/utils",
+                    "~styles": "src/theme/styles",
+                    "@fonts/*": "public/fonts/",
+                    "@images/*": "public/images/",
+                    "@styles/*": "public/css/",
+                }
+            }
+        ],
+        [
+            "babel-plugin-styled-components",
+            {
+                "ssr": false
+            }
+        ]
+    ]
+}
