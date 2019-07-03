@@ -1,23 +1,7 @@
 export const imports = {
-  'LICENSE.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "license" */ 'LICENSE.md'
-    ),
   'pages/accessibility.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "pages-accessibility" */ 'pages/accessibility.mdx'
-    ),
-  'pages/alerts.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "pages-alerts" */ 'pages/alerts.mdx'
-    ),
-  'pages/badges.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "pages-badges" */ 'pages/badges.mdx'
-    ),
-  'pages/checkboxes.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "pages-checkboxes" */ 'pages/checkboxes.mdx'
     ),
   'pages/colours.mdx': () =>
     import(
@@ -27,20 +11,36 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "pages-introduction" */ 'pages/introduction.mdx'
     ),
-  'pages/radios.mdx': () =>
+  'components/Alerts/alerts.mdx': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "pages-radios" */ 'pages/radios.mdx'
+      /* webpackPrefetch: true, webpackChunkName: "components-alerts-alerts" */ 'components/Alerts/alerts.mdx'
     ),
-  'pages/spinners.mdx': () =>
+  'components/Badge/badges.mdx': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "pages-spinners" */ 'pages/spinners.mdx'
+      /* webpackPrefetch: true, webpackChunkName: "components-badge-badges" */ 'components/Badge/badges.mdx'
     ),
-  'pages/text_inputs.mdx': () =>
+  'components/Button/button.mdx': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "pages-text-inputs" */ 'pages/text_inputs.mdx'
+      /* webpackPrefetch: true, webpackChunkName: "components-button-button" */ 'components/Button/button.mdx'
     ),
-  'pages/toggles.mdx': () =>
+  'components/Checkbox/checkboxes.mdx': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "pages-toggles" */ 'pages/toggles.mdx'
+      /* webpackPrefetch: true, webpackChunkName: "components-checkbox-checkboxes" */ 'components/Checkbox/checkboxes.mdx'
+    ),
+  'components/Radio/radios.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-radio-radios" */ 'components/Radio/radios.mdx'
+    ),
+  'components/Spinners/spinners.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-spinners-spinners" */ 'components/Spinners/spinners.mdx'
+    ),
+  'components/Text-Input/text_inputs.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-text-input-text-inputs" */ 'components/Text-Input/text_inputs.mdx'
+    ),
+  'components/Toggles/toggles.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-toggles-toggles" */ 'components/Toggles/toggles.mdx'
     ),
 }

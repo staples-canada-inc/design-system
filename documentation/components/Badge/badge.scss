@@ -1,0 +1,13 @@
+.badge-pill {
+    padding: 0.55em 0.7em;
+    font-family: 'TT Norms Medium', sans-serif;
+}
+
+.badge-warning {
+    color: $white;
+}
+
+.btn:hover span {
+    background-color: $white;
+    color: $primary;
+}

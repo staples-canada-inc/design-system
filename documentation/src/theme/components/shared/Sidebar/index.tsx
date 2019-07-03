@@ -28,7 +28,8 @@ const Wrapper = styled.div<WrapperProps>`
 	min-height: 100vh;
 	background: ${sidebarBg};
 	transition: transform 0.2s, background 0.3s;
-	z-index: 1000;
+    z-index: 1000;
+    border-right: 1px solid ${sidebarBorder};
 
 	${mq({
 		position: ["absolute", "absolute", "absolute", "relative"]

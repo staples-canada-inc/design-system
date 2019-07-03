@@ -8,7 +8,7 @@ export const light = {
 	link: colors.secondary,
 	footerText: colors.grayDark,
 	sidebarBg: colors.white,
-	sidebarText: colors.dark,
+	sidebarText: colors.grayDark,
 	sidebarHighlight: null,
 	sidebarBorder: colors.grayLight,
 	background: colors.white,
@@ -26,8 +26,8 @@ export const light = {
 	blockquoteColor: colors.gray,
 	propsText: colors.gray,
 	propsBg: colors.grayUltraLight,
-    topBarBg: colors.gray,
-    searchText: colors.grayLight
+	topBarBg: colors.gray,
+	searchText: colors.gray
 };
 
 export const dark = {

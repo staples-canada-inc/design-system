@@ -7,14 +7,14 @@ const SRC = path.resolve(__dirname, 'src')
 
 export default {
     title: 'Staples Design System',
-    description: 'It has never been so easy to document your things',
+    description: '',
     indexHtml: 'public/index.html',
     theme: 'src/theme/index',
     codeSandbox: false,
     typescript: true,
     propsParser: false,
     mdPlugins: [externalLinks],
-    ignore: ['site-map.md', 'readme.md', 'src/theme/**'],
+    ignore: ['site-map.md', 'readme.md', 'LICENSE.md', 'src/theme/**'],
     public: './public',
     themeConfig: {
         mode: 'light',
@@ -33,7 +33,18 @@ export default {
         }
     },
     menu: [
+        {
+            name: 'Guidelines',
+            menu: [
+                'Introduction',
+            ],
+        },
+        {
+            name: 'Components',
+            menu: [
 
+            ],
+        },
     ],
     onCreateWebpackChain: config => {
         config.resolve.alias

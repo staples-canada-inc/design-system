@@ -8,7 +8,6 @@ import { ButtonLink } from "./Button";
 import { GithubLink, Sidebar, Main } from "../shared";
 import { get } from "../../utils/theme";
 import { mq } from "../../styles/responsive";
-import { TopBar } from "../shared/Topbar";
 
 const Wrapper = styled.div`
 	flex: 1;
@@ -83,7 +82,6 @@ export const Page: SFC<PageProps> = ({
 			{repository && <GithubLink repository={repository} />}
 			{!fullpage && <Sidebar />}
 			<Wrapper>
-				<TopBar>{name}</TopBar>
 				{fullpage ? content : <Container>{content}</Container>}
 			</Wrapper>
 		</Main>

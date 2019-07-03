@@ -1,8 +1,19 @@
 {
   "config": {
     "title": "Staples Design System",
-    "description": "It has never been so easy to document your things",
-    "menu": [],
+    "description": "",
+    "menu": [
+      {
+        "name": "Guidelines",
+        "menu": [
+          "Introduction"
+        ]
+      },
+      {
+        "name": "Components",
+        "menu": []
+      }
+    ],
     "version": "1.2.0",
     "repository": null,
     "native": false,
@@ -26,6 +37,7 @@
     "ignore": [
       "site-map.md",
       "readme.md",
+      "LICENSE.md",
       "src/theme/**"
     ],
     "public": "./public",
@@ -38,28 +50,15 @@
   },
   "entries": [
     {
-      "key": "LICENSE.md",
-      "value": {
-        "id": "37854d19817c792316d481f5beb93cc7",
-        "filepath": "LICENSE.md",
-        "link": "",
-        "slug": "license",
-        "route": "/license",
-        "name": "License",
-        "menu": "",
-        "headings": []
-      }
-    },
-    {
       "key": "pages/accessibility.mdx",
       "value": {
+        "name": "Accessibility",
+        "route": "/docs/accessibility",
+        "menu": "Guidelines",
         "id": "9f53e9239c9dd137448a9c3a806c37b5",
         "filepath": "pages/accessibility.mdx",
         "link": "",
         "slug": "pages-accessibility",
-        "route": "/pages-accessibility",
-        "name": "Accessibility",
-        "menu": "",
         "headings": [
           {
             "slug": "accessibility",
@@ -285,176 +284,15 @@
       }
     },
     {
-      "key": "pages/alerts.mdx",
-      "value": {
-        "layout": "docs",
-        "title": "Alerts",
-        "description": "Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.",
-        "group": "components",
-        "id": "f8bbf2809b7ceedf2b5fc21757629d61",
-        "filepath": "pages/alerts.mdx",
-        "link": "",
-        "slug": "pages-alerts",
-        "route": "/pages-alerts",
-        "name": "Alerts",
-        "menu": "",
-        "headings": [
-          {
-            "slug": "alerts",
-            "depth": 1,
-            "value": "Alerts"
-          },
-          {
-            "slug": "simple-alerts",
-            "depth": 2,
-            "value": "Simple Alerts"
-          },
-          {
-            "slug": "examples-of-documentation--simple-alerts",
-            "depth": 3,
-            "value": "Examples oF Documentation- Simple Alerts"
-          },
-          {
-            "slug": "link-color",
-            "depth": 2,
-            "value": "Link color"
-          },
-          {
-            "slug": "simple-alerts-with-links",
-            "depth": 3,
-            "value": "Simple Alerts with Links"
-          },
-          {
-            "slug": "large-alerts",
-            "depth": 2,
-            "value": "Large Alerts"
-          },
-          {
-            "slug": "dismiss-alerts",
-            "depth": 2,
-            "value": "Dismiss Alerts"
-          }
-        ]
-      }
-    },
-    {
-      "key": "pages/badges.mdx",
-      "value": {
-        "name": "Badges",
-        "route": "/docs/components/badges",
-        "parent": "Validation & Progress",
-        "menu": "Components",
-        "id": "5c590c67db1057bddd75456fccb4799d",
-        "filepath": "pages/badges.mdx",
-        "link": "",
-        "slug": "pages-badges",
-        "headings": [
-          {
-            "slug": "badges",
-            "depth": 1,
-            "value": "Badges"
-          },
-          {
-            "slug": "scale-to-parent",
-            "depth": 2,
-            "value": "Scale to Parent"
-          },
-          {
-            "slug": "notification",
-            "depth": 2,
-            "value": "Notification"
-          },
-          {
-            "slug": "contextual-variations",
-            "depth": 2,
-            "value": "Contextual variations"
-          },
-          {
-            "slug": "pill-badges",
-            "depth": 2,
-            "value": "Pill badges"
-          }
-        ]
-      }
-    },
-    {
-      "key": "pages/checkboxes.mdx",
-      "value": {
-        "layout": "docs",
-        "title": "Checkboxes",
-        "description": "Provide contextual feedback messages for typical user actions with the handful of available and flexible checkboxes.",
-        "group": "components",
-        "id": "10bf7d3cfdb56ee5f1886a75342a93f2",
-        "filepath": "pages/checkboxes.mdx",
-        "link": "",
-        "slug": "pages-checkboxes",
-        "route": "/pages-checkboxes",
-        "name": "Checkboxes",
-        "menu": "",
-        "headings": [
-          {
-            "slug": "checkboxes",
-            "depth": 1,
-            "value": "Checkboxes"
-          },
-          {
-            "slug": "examples-of-documentation---checkboxes",
-            "depth": 3,
-            "value": "Examples oF Documentation - Checkboxes"
-          },
-          {
-            "slug": "disabled-checkboxes",
-            "depth": 2,
-            "value": "Disabled Checkboxes"
-          },
-          {
-            "slug": "examples-of-documentation---disabled-checkboxes",
-            "depth": 3,
-            "value": "Examples oF Documentation - Disabled Checkboxes"
-          },
-          {
-            "slug": "default-stacked",
-            "depth": 3,
-            "value": "Default (stacked)"
-          },
-          {
-            "slug": "examples-of-documentation---default-stacked",
-            "depth": 3,
-            "value": "Examples oF Documentation - Default (stacked)"
-          },
-          {
-            "slug": "inline",
-            "depth": 3,
-            "value": "Inline"
-          },
-          {
-            "slug": "examples-of-documentation---inline",
-            "depth": 3,
-            "value": "Examples oF Documentation - Inline"
-          },
-          {
-            "slug": "without-labels",
-            "depth": 3,
-            "value": "Without labels"
-          },
-          {
-            "slug": "examples-of-documentation---radio-without-labels",
-            "depth": 3,
-            "value": "Examples oF Documentation - Radio without Labels"
-          }
-        ]
-      }
-    },
-    {
       "key": "pages/colours.mdx",
       "value": {
+        "name": "Colours",
+        "route": "/docs/Colours",
+        "menu": "Guidelines",
         "id": "62dffea853678666c54f78f7e0150219",
         "filepath": "pages/colours.mdx",
         "link": "",
         "slug": "pages-colours",
-        "route": "/pages-colours",
-        "name": "Colours",
-        "menu": "",
         "headings": [
           {
             "slug": "colours",
@@ -534,8 +372,7 @@
       "value": {
         "name": "Introduction",
         "route": "/docs/introduction",
-        "parent": "Documentation",
-        "menu": "General",
+        "menu": "Guidelines",
         "id": "3779e48462ad7b8e0d85cb3c4cf7411d",
         "filepath": "pages/introduction.mdx",
         "link": "",
@@ -555,19 +392,186 @@
       }
     },
     {
-      "key": "pages/radios.mdx",
+      "key": "components/Alerts/alerts.mdx",
       "value": {
-        "layout": "docs",
-        "title": "Radios",
-        "description": "Provide contextual feedback messages for typical user actions with the handful of available and flexible radios.",
-        "group": "components",
-        "id": "e8352f08fd97b5f233f5f14fdbdd4969",
-        "filepath": "pages/radios.mdx",
+        "name": "Alerts",
+        "route": "/docs/components/alerts",
+        "menu": "Components",
+        "id": "a066673070280570593b87642e56feda",
+        "filepath": "components/Alerts/alerts.mdx",
         "link": "",
-        "slug": "pages-radios",
-        "route": "/pages-radios",
-        "name": "Radios",
-        "menu": "",
+        "slug": "components-alerts-alerts",
+        "headings": [
+          {
+            "slug": "alerts",
+            "depth": 1,
+            "value": "Alerts"
+          },
+          {
+            "slug": "simple-alerts",
+            "depth": 2,
+            "value": "Simple Alerts"
+          },
+          {
+            "slug": "conveying-meaning-to-assistive-technologies",
+            "depth": 3,
+            "value": "Conveying meaning to assistive technologies"
+          },
+          {
+            "slug": "link-color",
+            "depth": 2,
+            "value": "Link color"
+          },
+          {
+            "slug": "simple-alerts-with-links",
+            "depth": 3,
+            "value": "Simple Alerts with Links"
+          },
+          {
+            "slug": "large-alerts",
+            "depth": 2,
+            "value": "Large Alerts"
+          },
+          {
+            "slug": "dismiss-alerts",
+            "depth": 2,
+            "value": "Dismiss Alerts"
+          }
+        ]
+      }
+    },
+    {
+      "key": "components/Badge/badges.mdx",
+      "value": {
+        "name": "Badges",
+        "route": "/docs/components/badges",
+        "menu": "Components",
+        "id": "479c5b89f48368d8466f6d3103182bc8",
+        "filepath": "components/Badge/badges.mdx",
+        "link": "",
+        "slug": "components-badge-badges",
+        "headings": [
+          {
+            "slug": "badges",
+            "depth": 1,
+            "value": "Badges"
+          },
+          {
+            "slug": "scale-to-parent",
+            "depth": 2,
+            "value": "Scale to Parent"
+          },
+          {
+            "slug": "notification",
+            "depth": 2,
+            "value": "Notification"
+          },
+          {
+            "slug": "contextual-variations",
+            "depth": 2,
+            "value": "Contextual variations"
+          },
+          {
+            "slug": "pill-badges",
+            "depth": 2,
+            "value": "Pill badges"
+          }
+        ]
+      }
+    },
+    {
+      "key": "components/Button/button.mdx",
+      "value": {
+        "name": "Buttons",
+        "route": "/docs/components/buttons",
+        "menu": "Components",
+        "id": "6b1d212fbedc4bc3e7ecda558f6aa3ab",
+        "filepath": "components/Button/button.mdx",
+        "link": "",
+        "slug": "components-button-button",
+        "headings": [
+          {
+            "slug": "button-tags",
+            "depth": 2,
+            "value": "Button tags"
+          }
+        ]
+      }
+    },
+    {
+      "key": "components/Checkbox/checkboxes.mdx",
+      "value": {
+        "name": "Checkboxe",
+        "route": "/docs/components/checkboxe",
+        "menu": "Components",
+        "id": "ce6be1bfc48233ff5ac4f37e5f6a60fb",
+        "filepath": "components/Checkbox/checkboxes.mdx",
+        "link": "",
+        "slug": "components-checkbox-checkboxes",
+        "headings": [
+          {
+            "slug": "checkboxes",
+            "depth": 1,
+            "value": "Checkboxes"
+          },
+          {
+            "slug": "examples-of-documentation---checkboxes",
+            "depth": 3,
+            "value": "Examples oF Documentation - Checkboxes"
+          },
+          {
+            "slug": "disabled-checkboxes",
+            "depth": 2,
+            "value": "Disabled Checkboxes"
+          },
+          {
+            "slug": "examples-of-documentation---disabled-checkboxes",
+            "depth": 3,
+            "value": "Examples oF Documentation - Disabled Checkboxes"
+          },
+          {
+            "slug": "default-stacked",
+            "depth": 3,
+            "value": "Default (stacked)"
+          },
+          {
+            "slug": "examples-of-documentation---default-stacked",
+            "depth": 3,
+            "value": "Examples oF Documentation - Default (stacked)"
+          },
+          {
+            "slug": "inline",
+            "depth": 3,
+            "value": "Inline"
+          },
+          {
+            "slug": "examples-of-documentation---inline",
+            "depth": 3,
+            "value": "Examples oF Documentation - Inline"
+          },
+          {
+            "slug": "without-labels",
+            "depth": 3,
+            "value": "Without labels"
+          },
+          {
+            "slug": "examples-of-documentation---radio-without-labels",
+            "depth": 3,
+            "value": "Examples oF Documentation - Radio without Labels"
+          }
+        ]
+      }
+    },
+    {
+      "key": "components/Radio/radios.mdx",
+      "value": {
+        "name": "Radio",
+        "route": "/docs/components/radio",
+        "menu": "Components",
+        "id": "de062efe86338ee49799b1e341842f9d",
+        "filepath": "components/Radio/radios.mdx",
+        "link": "",
+        "slug": "components-radio-radios",
         "headings": [
           {
             "slug": "radios",
@@ -623,19 +627,15 @@
       }
     },
     {
-      "key": "pages/spinners.mdx",
+      "key": "components/Spinners/spinners.mdx",
       "value": {
-        "layout": "docs",
-        "title": "Spinners",
-        "description": "Provide contextual feedback messages for typical user actions with the handful of available and flexible spinners.",
-        "group": "components",
-        "id": "68afffad591684f89403874393327e65",
-        "filepath": "pages/spinners.mdx",
-        "link": "",
-        "slug": "pages-spinners",
-        "route": "/pages-spinners",
         "name": "Spinners",
-        "menu": "",
+        "route": "/docs/components/spinners",
+        "menu": "Components",
+        "id": "81c7e1b43be251d2a9f51a679601d4fc",
+        "filepath": "components/Spinners/spinners.mdx",
+        "link": "",
+        "slug": "components-spinners-spinners",
         "headings": [
           {
             "slug": "spinners",
@@ -671,19 +671,15 @@
       }
     },
     {
-      "key": "pages/text_inputs.mdx",
+      "key": "components/Text-Input/text_inputs.mdx",
       "value": {
-        "layout": "docs",
-        "title": "Text Inputs",
-        "description": "Provide contextual feedback messages for typical user actions with the handful of available and flexible text inputs.",
-        "group": "components",
-        "id": "89a23d9e63729e0e4ece45a38519b416",
-        "filepath": "pages/text_inputs.mdx",
+        "name": "Text Input",
+        "route": "/docs/components/text-input",
+        "menu": "Components",
+        "id": "d2e7180378015521c3414a2d1ef43423",
+        "filepath": "components/Text-Input/text_inputs.mdx",
         "link": "",
-        "slug": "pages-text-inputs",
-        "route": "/pages-text-inputs",
-        "name": "Text inputs",
-        "menu": "",
+        "slug": "components-text-input-text-inputs",
         "headings": [
           {
             "slug": "forms",
@@ -799,19 +795,15 @@
       }
     },
     {
-      "key": "pages/toggles.mdx",
+      "key": "components/Toggles/toggles.mdx",
       "value": {
-        "layout": "docs",
-        "title": "Toggles",
-        "description": "Provide contextual feedback messages for typical user actions with the handful of available and flexible toggle elements.",
-        "group": "components",
-        "id": "4a86d3094f931e6c634c2a51c3252737",
-        "filepath": "pages/toggles.mdx",
+        "name": "Toggle",
+        "route": "/docs/components/toggle",
+        "menu": "Components",
+        "id": "558ad99754f904526c5970f38ba48a64",
+        "filepath": "components/Toggles/toggles.mdx",
         "link": "",
-        "slug": "pages-toggles",
-        "route": "/pages-toggles",
-        "name": "Toggles",
-        "menu": "",
+        "slug": "components-toggles-toggles",
         "headings": [
           {
             "slug": "toggles",
