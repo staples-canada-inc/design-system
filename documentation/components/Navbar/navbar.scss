@@ -2,6 +2,10 @@
     max-width: 250px;
 }
 
+nav.nav-item {
+    line-height: auto !important;
+}
+
 nav.bg-primary,
 nav.bg-dark {
     .navbar-nav {
@@ -15,7 +19,7 @@ nav.bg-dark {
     }
 }
 
-nav.bg-light{
+nav.bg-light {
     .navbar-nav {
         .nav-link {
             color: $dark-gray;

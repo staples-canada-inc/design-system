@@ -35,13 +35,13 @@
     background-color: $blue;
 }
 
-.dropdown-toggle {
+.btn.dropdown-toggle {
     padding: 0.875rem 4rem 0.875rem 1rem !important;
     min-width: 170px;
     text-align: left;
 }
 
-.dropdown-toggle::after {
+.btn.dropdown-toggle::after {
     display: inline-block;
     margin-left: 0.255em;
     top: 16px;

@@ -4,6 +4,20 @@ route: /docs/accessibility
 menu: Guidelines
 ---
 
+import accesibility_colour_chart from "../../public/images/accesibility_colour_chart.svg";
+import approved_blue from "../../public/images/approved_blue.svg";
+import approved_charcoal from "../../public/images/approved_charcoal.svg";
+import approved_chartreuse from "../../public/images/approved_chartreuse.svg";
+import approved_cork from "../../public/images/approved_cork.svg";
+import approved_dark_blue from "../../public/images/approved_dark_blue.svg";
+import approved_light_gray from "../../public/images/approved_light_gray.svg";
+import approved_lightest_blue from "../../public/images/approved_lightest_blue.svg";
+import approved_lightest_gray from "../../public/images/approved_lightest_gray.svg";
+import approved_mid_gray from "../../public/images/approved_mid_gray.svg";
+import approved_staples_red from "../../public/images/approved_staples_red.svg";
+import approved_white from "../../public/images/approved_white.svg";
+
+
 # Accessibility
 
 > Staples believes that web and software experiences should be accessible to everyone, regardless of abilities or impairments. We are committed to following and complying with best practices when it comes to accessibility.
@@ -131,7 +145,7 @@ When text is rendered on a gradient background or image, make sure the text colo
 
 ### UI Components
 
-Visual information used to indicate states and boundaries of UI components must have a contrast ratio of 3:1 against adjacent colors. This includes form elements.
+Visual information used to indicate states and boundaries of UI components must have a contrast ratio of **3:1** against adjacent colors. This includes form elements.
 
 ## Approved Colour Combinations
 
@@ -140,10 +154,39 @@ To meet accessability requirements and to support as many devices as possible, t
 ### Primary Colours
 
 White on Staples Red and vice versa, meet the contrast ratio for WCAG AA standards, as well as AAA standards when large text is used. Text should never appear lighter than our Mid-Gray on white.
+<div class="row">
+    <div class="col-3 text-center">
+        <img src={approved_staples_red} />
+        <p>Staples Red</p>
+    </div>
+    <div class="col-3 text-center">
+        <img src={approved_white} />
+        <p>White</p>
+    </div>
+</div>
 
 ### Secondary Colours
 
 Charcoal paired with White and Lightest-Gray meet the WCAG AA and AAA standards for both large and standard text. Mid-Gray paired with White, and Light-Gray with Charcoal, pass AA standards, as well as AAA standards at larger text sizes.
+
+<div class="row">
+    <div class="col-3 text-center">
+        <img src={approved_charcoal} />
+        <p>Charcoal</p>
+    </div>
+    <div class="col-3 text-center">
+        <img src={approved_mid_gray} />
+        <p>Mid-Gray</p>
+    </div>
+    <div class="col-3 text-center">
+        <img src={approved_light_gray} />
+        <p>Light-Gray</p>
+    </div>
+    <div class="col-3 text-center">
+        <img src={approved_lightest_gray} />
+        <p>Lightest-Gray</p>
+    </div>
+</div>
 
 ### Tertiary Colours
 
@@ -151,38 +194,35 @@ Charcoal text is to be used on all tertiary colours, with the exception of Dark 
 
 The only tertiary colour combination to meet AAA standards across the board is Lightest-Blue paired with Charcoal.
 
+<div class="row">
+    <div class="col-3 text-center">
+        <img src={approved_chartreuse} />
+        <p>Chartreuse</p>
+    </div>
+    <div class="col-3 text-center">
+        <img src={approved_dark_blue} />
+        <p>Dark Blue</p>
+    </div>
+    <div class="col-3 text-center">
+        <img src={approved_blue} />
+        <p>Blue</p>
+    </div>
+    <div class="col-3 text-center">
+        <img src={approved_lightest_blue} />
+        <p>Lightest-Blue</p>
+    </div>
+    <div class="col-3 text-center">
+        <img src={approved_cork} />
+        <p>Cork</p>
+    </div>
+</div>
+
+
 ### Colour Chart
 
 View the full chart of the Staples colour palette in WCAG AA and AAA standards below for more detail:
 
-|                   |   AA Large    | AA Normal | AAA Large | AAA Normal |
-| ----------------- | :-----------: | :-------: | :-------: | ---------: |
-| **Staples Red**   |     White     |           |           |         -- |
-|                   |  Light-Gray   |           |           |         -- |
-| **White**         |  Staples Red  |           |           |         -- |
-|                   |   Charcoal    |           |           |            |
-|                   |   Mid-Gray    |           |           |         -- |
-|                   |   Dark Blue   |           |           |            |
-| **Charcoal**      |     White     |           |           |            |
-|                   | Lightest-Gray |           |           |            |
-|                   |  Chartreuse   |           |           |         -- |
-|                   |     Blue      |           |           |         -- |
-|                   | Lightest-Blue |           |           |            |
-|                   |     Cork      |           |           |            |
-| **Mid-Gray**      |     White     |           |           |         -- |
-|                   | Lightest-Gray |    --     |           |            |
-|                   |  Light-Gray   |           |           |            |
-| **Light-Gray**    |   Charcoal    |           |           |            |
-|                   |   Mid-Gray    |    --     |           |            |
-| **Lightest-Gray** |  Staples Red  |           |           |            |
-|                   |   Charcoal    |           |           |            |
-|                   |   Mid-Gray    |    --     |           |            |
-| **Chartreuse**    |   Charcoal    |           |           |         -- |
-| **Blue**          |   Charcoal    |           |           |         -- |
-| **Dark Blue**     |     White     |           |           |         -- |
-|                   | Lightest-Blue |    --     |           |            |
-| **Lightest-Blue** |   Charcoal    |           |           |            |
-| **Cork**          |   Charcoal    |           |           |         -- |
+<img src={accesibility_colour_chart} class="w-100" />
 
 ## Keyboard Accessibility
 

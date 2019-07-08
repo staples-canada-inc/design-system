@@ -52,14 +52,16 @@ Badges can be used as part of links or buttons to provide a counter.
 	</Button>
 </Playground>
 
-Note that depending on how they are used, badges may be confusing for users of screen readers and similar assistive technologies. While the styling of badges provides a visual cue as to their purpose, these users will simply be presented with the content of the badge. Depending on the specific situation, these badges may seem like random additional words or numbers at the end of a sentence, link, or button.
-
-Unless the context is clear (as with the “Notifications” example, where it is understood that the `“4”` is the number of notifications), consider including additional context with a visually hidden piece of additional text.
-
     <button type="button" class="btn btn-primary">
         Profile <span class="badge badge-light">9</span>
         <span class="sr-only">unread messages</span>
     </button>
+
+Note that depending on how they are used, badges may be confusing for users of screen readers and similar assistive technologies. While the styling of badges provides a visual cue as to their purpose, these users will simply be presented with the content of the badge. Depending on the specific situation, these badges may seem like random additional words or numbers at the end of a sentence, link, or button.
+
+Unless the context is clear (as with the “Notifications” example, where it is understood that the `“4”` is the number of notifications), consider including additional context with a visually hidden piece of additional text.
+
+
 
 ## Contextual variations
 
@@ -73,22 +75,22 @@ Using color to add meaning only provides a visual indication, which will not be 
 Use the `.badge-pill` modifier class to make badges more rounded (with a larger `border-radius` and additional horizontal `padding`). Useful if you miss the badges from v3.
 
 <Playground>
-	<Badge color="primary" pill>Primary</Badge>
-	<Badge color="secondary" pill>Secondary</Badge>
-	<Badge color="success" pill>Success</Badge>
-	<Badge color="danger" pill>Danger</Badge>
-	<Badge color="warning" pill>Warning</Badge>
-	<Badge color="info" pill>Info</Badge>
-	<Badge color="light" pill>Light</Badge>
-	<Badge color="dark" pill>Dark</Badge>
+	<Badge color="primary" pill className="mr-2">Primary</Badge>
+	<Badge color="secondary" pill className="mr-2">Secondary</Badge>
+	<Badge color="success" pill className="mr-2">Success</Badge>
+	<Badge color="danger" pill className="mr-2">Danger</Badge>
+	<Badge color="warning" pill className="mr-2">Warning</Badge>
+	<Badge color="info" pill className="mr-2">Info</Badge>
+	<Badge color="light" pill className="mr-2">Light</Badge>
+	<Badge color="dark" pill className="mr-2">Dark</Badge>
 </Playground>
 
 
-    <Badge href="#" color="primary">Primary</Badge>
-    <Badge href="#" color="secondary">Secondary</Badge>
-    <Badge href="#" color="success">Success</Badge>
-    <Badge href="#" color="danger">Danger</Badge>
-    <Badge href="#" color="warning">Warning</Badge>
-    <Badge href="#" color="info">Info</Badge>
-    <Badge href="#" color="light">Light</Badge>
-    <Badge href="#" color="dark">Dark</Badge>
+    <span class="badge badge-primary badge-pill">Primary</span>
+    <span class="badge badge-secondary badge-pill">Secondary</span>
+    <span class="badge badge-success badge-pill">Success</span>
+    <span class="badge badge-danger badge-pill">Danger</span>
+    <span class="badge badge-warning badge-pill">Warning</span>
+    <span class="badge badge-info badge-pill">Info</span>
+    <span class="badge badge-light badge-pill">Light</span>
+    <span class="badge badge-dark badge-pill">Dark</span>

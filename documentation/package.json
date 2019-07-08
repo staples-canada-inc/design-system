@@ -24,10 +24,16 @@
         "@tippy.js/react": "^2.2.0",
         "codemirror": "^5.46.0",
         "copy-text-to-clipboard": "^2.1.0",
+        "del": "^5.0.0",
         "docz": "^1.2.0",
         "docz-theme-default": "^1.2.0",
+        "gulp": "^4.0.2",
+        "gulp-sass": "^4.0.2",
+        "gulp-sass-glob": "^1.1.0",
+        "gulp-watch": "^5.0.1",
         "hotkeys-js": "^3.6.6",
         "lodash": "^4.17.11",
+        "node-sass": "^4.12.0",
         "polished": "^3.3.0",
         "prop-types": "15.7.2",
         "re-resizable": "^4.11.0",
@@ -37,9 +43,9 @@
         "react-feather": "^1.1.6",
         "react-live": "2.0.1",
         "react-perfect-scrollbar": "^1.5.0",
+        "reactstrap": "^8.0.0",
         "styled-components": "^4.2.0",
-        "typescript": "3.3.4000",
-        "reactstrap": "^8.0.0"
+        "typescript": "3.3.4000"
     },
     "peerDependencies": {
         "react": "^16.8.0",
