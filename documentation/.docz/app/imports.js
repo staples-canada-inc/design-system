@@ -39,9 +39,9 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-badge-badges" */ 'components/Badge/badges.mdx'
     ),
-  'components/Button/button.mdx': () =>
+  'components/Button/buttons.mdx': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "components-button-button" */ 'components/Button/button.mdx'
+      /* webpackPrefetch: true, webpackChunkName: "components-button-buttons" */ 'components/Button/buttons.mdx'
     ),
   'components/Checkbox/checkboxes.mdx': () =>
     import(

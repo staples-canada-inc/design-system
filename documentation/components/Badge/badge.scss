@@ -1,6 +1,13 @@
+.btn {
+    .badge{
+        margin-left: .375rem;
+    }
+}
 .badge-pill {
-    padding: 0.55em 0.7em;
+    padding: 5px 12px;
     font-family: 'TT Norms Medium', sans-serif;
+    line-height: 15px;
+    border-radius: $btn-border-radius;
 }
 
 .badge-warning {
