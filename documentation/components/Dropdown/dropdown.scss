@@ -28,6 +28,10 @@
     }
 }
 
+.dropdown-toggle {
+    position: relative;
+}
+
 .dropdown-toggle-split {
     padding-right: 1rem !important;
     padding-left: 1rem !important;
@@ -43,6 +47,211 @@
 }
 
 
+.dropdown>.dropdown-toggle::after {
+    width: 25px;
+    height: 10px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: .6rem;
+    top: .98rem;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    border: 0;
+}
+
+
+.dropdown.show>.dropdown-toggle::after {
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    transform: rotate(-180deg);
+    width: 25px;
+    height: 10px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: .6rem;
+    top: .98rem;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    border: 0;
+
+}
+
+
+/////////////////////////////////////////////////
+// Button Dropdown Styles
+/////////////////////////////////////////////////
+
+.btn.dropdown-toggle {
+    padding: 0.875rem 4rem 0.875rem 1rem !important;
+    min-width: 170px;
+    text-align: left;
+}
+
+.btn.dropdown-toggle::after {
+    width: 25px;
+    height: 10px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: .6rem;
+    top: .98rem;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    border: 0;
+}
+
+// Button Dropdown Visible Caret
+.btn-group.show>.dropdown-toggle::after {
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    transform: rotate(-180deg);
+    width: 25px;
+    height: 10px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: .6rem;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    border: 0;
+}
+
+
+// Default Buttons
+// Primary Caret
+.dropdown-toggle.btn.btn-primary::after {
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23CC0000' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+
+// Secondary Caret
+.dropdown-toggle.btn.btn-secondary::after {
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23008497' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+
+// Tertiary Caret
+.dropdown-toggle.btn.btn-tertiary::after {
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23747679' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+
+.dropdown-toggle.btn.btn-primary:hover::after,
+.dropdown-toggle.btn.btn-secondary:hover::after,
+.dropdown-toggle.btn.btn-tertiary:hover::after,
+.dropdown-toggle.btn.btn-primary.cta:hover::after,
+.dropdown-toggle.btn.btn-secondary.cta:hover::after,
+.dropdown-toggle.btn.btn-tertiary.cta:hover::after {
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23FFFFFF' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    transition: transform 0.3s;
+}
+
+
+// CTA Buttons
+// Primary Caret
+.dropdown-toggle.btn.btn-primary.cta::after {
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23FFFFFF' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+
+// Secondary Caret
+.dropdown-toggle.btn.btn-secondary.cta::after {
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23FFFFFF' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+
+// Tertiary Caret
+.dropdown-toggle.btn.btn-tertiary.cta::after {
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23FFFFFF' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+
+
+/////////////////////////////////////////////////
+// Dropdown Directions
+/////////////////////////////////////////////////
+
+// Drop UP
+.dropup .dropdown-toggle::after {
+    width: 25px;
+    height: 10px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: .6rem;
+    top: .98rem;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    border: 0;
+    transform: scaleY(-1);
+}
+
+
+.dropup.dropdown.show .dropdown-toggle::after {
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    transform: rotate(-180deg);
+    right: 14px;
+}
+
+
+// Drop LEFT
+.dropleft .dropdown-toggle {
+    text-align: right;
+    padding-left: 4rem !important;
+    padding-right: 1rem !important;
+}
+
+.dropleft .dropdown-toggle::before {
+    width: 25px;
+    height: 10px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: .6rem;
+    top: .98rem;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    border: 0;
+    transform: rotate(90deg);
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23CC0000' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+
+.dropleft .dropdown-toggle:hover::before {
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    transform: scaleX(1) rotate(90deg);
+}
+
+.dropleft.show .dropdown-toggle::before {
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    transform: scaleX(-1) rotate(90deg);
+    top: 18px;
+
+}
+
+// Drop RIGHT
+.dropright .dropdown-toggle::after {
+    width: 25px;
+    height: 10px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: .6rem;
+    top: .98rem;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    border: 0;
+    transform: rotate(-90deg);
+}
+
+.dropright .dropdown-toggle:hover::after {
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    transform: rotate(-90deg);
+}
+
+.dropright.show .dropdown-toggle::after {
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    transform: scaleX(-1) rotate(-90deg);
+    top: 13px;
+
+}
+
+/////////////////////////////////////////////////
+// Dropdown CTA Carets
+/////////////////////////////////////////////////
 
 
 // Primary Caret
@@ -66,109 +275,4 @@
 .dropdown-toggle.cta:hover::after {
     background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
     transition: all .15s;
-}
-
-
-
-
-
-/////////////////////////////////////////////////
-// Dropdown Directions
-/////////////////////////////////////////////////
-
-// Drop UP
-.dropup .dropdown-toggle::after {
-    display: inline-block;
-    margin-left: 0.255em;
-    vertical-align: 0;
-    width: 20px;
-    height: 10px;
-    position: absolute;
-    right: 2rem;
-    background-repeat: no-repeat;
-    background-size: 25px;
-    border-top: 0;
-    border-right: 0 solid transparent;
-    border-bottom: 0;
-    border-left: 0 solid transparent;
-    transform: scaleY(-1);
-}
-
-
-// .dropup.dropdown.show .dropdown-toggle::after {
-//     background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
-//     transform: rotate(-180deg);
-//     right: 14px;
-// }
-
-
-// Drop LEFT
-.dropleft .dropdown-toggle {
-    text-align: right;
-    padding-left: 4rem !important;
-    padding-right: 1rem !important;
-}
-
-.dropleft .dropdown-toggle::before {
-    display: inline-block;
-    margin-left: 0.255em;
-    vertical-align: 0;
-    width: 20px;
-    height: 10px;
-    position: absolute;
-    top: 18px;
-    left: 1rem;
-    background-repeat: no-repeat;
-    background-size: 25px;
-    border-top: 0;
-    border-right: 0 solid transparent;
-    border-bottom: 0;
-    border-left: 0 solid transparent;
-    transition: all .15s;
-    transform: rotate(90deg);
-    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23CC0000' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
-}
-
-.dropleft .dropdown-toggle:hover::before {
-    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
-    transform: scaleX(1) rotate(90deg);
-}
-
-.dropleft.show .dropdown-toggle::before {
-    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
-    transform: scaleX(-1) rotate(90deg);
-    top: 18px;
-
-}
-
-// Drop RIGHT
-.dropright .dropdown-toggle::after {
-    display: inline-block;
-    margin-left: 0.255em;
-    vertical-align: 0;
-    width: 20px;
-    height: 10px;
-    top: 13px;
-    position: absolute;
-    right: 1.3rem;
-    background-repeat: no-repeat;
-    background-size: 25px;
-    border-top: 0;
-    border-right: 0 solid transparent;
-    border-bottom: 0;
-    border-left: 0 solid transparent;
-    transition: all .15s;
-    transform: rotate(-90deg);
-}
-
-.dropright .dropdown-toggle:hover::after {
-    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
-    transform: rotate(-90deg);
-}
-
-.dropright.show .dropdown-toggle::after {
-    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
-    transform: scaleX(-1) rotate(-90deg);
-    top: 13px;
-
 }

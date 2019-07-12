@@ -98,111 +98,42 @@
     border-color: #5b5d5f;
 }
 
-// Button Link
-
-.btn-link {
-    background-color: transparent;
-    border: 1px solid transparent;
-    color: $secondary;
-    text-decoration: underline !important;
-    padding: 0px !important;
-
-    &:hover,
-    &:focus,
-    &:active {
-        background-color: transparent;
-        border: 1px solid transparent;
-        color: $secondary;
-        text-decoration: underline;
-        padding: 0px;
-        font-weight: bold;
-    }
-}
-
 .btn-link.btn-secondary:not(:disabled):not(.disabled):active {
     background-color: transparent;
-    border: 1px solid transparent;
+    border: none;
     color: $secondary;
     text-decoration: underline;
     padding: 0px !important;
 }
 
-// Button Dropdown Styles
 
-.btn.dropdown-toggle {
-    padding: 0.875rem 4rem 0.875rem 1rem !important;
-    min-width: 170px;
-    text-align: left;
+
+
+
+// Button Link
+
+.btn-link {
+    background-color: transparent !important;
+    border: 0px !important;
+    border-color: transparent !important;
+    color: $secondary;
+    text-decoration: underline !important;
+    padding: 0px !important;
+    text-transform: none !important;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: transparent !important;
+        border: none !important;
+        color: $secondary !important;
+        text-decoration: underline !important;
+        padding: 0px;
+        font-weight: bold;
+    }
 }
 
-.btn.dropdown-toggle::after {
-    width: 25px;
-    height: 10px;
-    margin: 0px;
-    padding: 0px;
-    position: absolute;
-    right: .6rem;
-    background-repeat: no-repeat;
-    background-size: 25px;
-    border-top: 0;
-}
-
-// Default Buttons
-// Primary Caret
-.dropdown-toggle.btn.btn-primary::after {
-    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23CC0000' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
-}
-
-// Secondary Caret
-.dropdown-toggle.btn.btn-secondary::after {
-    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23008497' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
-}
-
-// Tertiary Caret
-.dropdown-toggle.btn.btn-tertiary::after {
-    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23747679' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
-}
-
-.dropdown-toggle.btn.btn-primary:hover::after,
-.dropdown-toggle.btn.btn-secondary:hover::after,
-.dropdown-toggle.btn.btn-tertiary:hover::after,
-.dropdown-toggle.btn.btn-primary.cta:hover::after,
-.dropdown-toggle.btn.btn-secondary.cta:hover::after,
-.dropdown-toggle.btn.btn-tertiary.cta:hover::after {
-    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23FFFFFF' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
-    transition: transform 0.3s;
-}
-
-
-// Button Dropdown Visible Caret
-.btn-group.show>.dropdown-toggle::after {
-    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23ffffff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
-    transform: rotate(-180deg);
-    width: 25px;
-    height: 10px;
-    margin: 0px;
-    padding: 0px;
-    position: absolute;
-    right: .6rem;
-    background-repeat: no-repeat;
-    background-size: 25px;
-    border-top: 0;
-}
-
-
-
-// CTA Buttons
-// Primary Caret
-.dropdown-toggle.btn.btn-primary.cta::after {
-    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23FFFFFF' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
-}
-
-// Secondary Caret
-.dropdown-toggle.btn.btn-secondary.cta::after {
-    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23FFFFFF' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
-}
-
-// Tertiary Caret
-.dropdown-toggle.btn.btn-tertiary.cta::after {
-    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 1.38376L6 5.37501L10.5 1.38376' stroke='%23FFFFFF' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+button.btn-link {
+    border: 0px !important;
+    border-color: transparent !important;
 }

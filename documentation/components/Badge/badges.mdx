@@ -37,9 +37,9 @@ Badges can be used as part of links or buttons to provide a counter.
     <h5>Example heading <span class="badge badge-secondary">New</span></h5>
     <h6>Example heading <span class="badge badge-secondary">New</span></h6>
 
-Badges can be used as part of links or buttons to provide a counter.
-
 ## Notification
+
+Badges can be used as part of links or buttons to provide a counter.
 
 <Playground>
 	<Button color="primary" outline>
@@ -48,8 +48,7 @@ Badges can be used as part of links or buttons to provide a counter.
 </Playground>
 
     <button type="button" class="btn btn-primary">
-        Profile <span class="badge badge-light">9</span>
-        <span class="sr-only">unread messages</span>
+        Notifications <span class="ml-2 badge badge-primary">4</span>
     </button>
 
 Note that depending on how they are used, badges may be confusing for users of screen readers and similar assistive technologies. While the styling of badges provides a visual cue as to their purpose, these users will simply be presented with the content of the badge. Depending on the specific situation, these badges may seem like random additional words or numbers at the end of a sentence, link, or button.
@@ -89,3 +88,28 @@ Use the `.badge-pill` modifier class to make badges more rounded (with a larger 
     <span class="badge badge-info badge-pill">Info</span>
     <span class="badge badge-light badge-pill">Light</span>
     <span class="badge badge-dark badge-pill">Dark</span>
+
+
+### Links
+
+Using the contextual `.badge-*` classes on an `<a>` element quickly provides actionable badges with hover and focus states.
+
+<Playground>
+    <a href="#" className="mr-2 badge badge-primary">Primary</a>
+    <a href="#" className="mr-2 badge badge-secondary">Secondary</a>
+    <a href="#" className="mr-2 badge badge-success">Success</a>
+    <a href="#" className="mr-2 badge badge-danger">Danger</a>
+    <a href="#" className="mr-2 badge badge-warning">Warning</a>
+    <a href="#" className="mr-2 badge badge-info">Info</a>
+    <a href="#" className="mr-2 badge badge-light">Light</a>
+    <a href="#" className="mr-2 badge badge-dark">Dark</a>
+</Playground>
+
+    <a href="#" class="badge badge-primary">Primary</a>
+    <a href="#" class="badge badge-secondary">Secondary</a>
+    <a href="#" class="badge badge-success">Success</a>
+    <a href="#" class="badge badge-danger">Danger</a>
+    <a href="#" class="badge badge-warning">Warning</a>
+    <a href="#" class="badge badge-info">Info</a>
+    <a href="#" class="badge badge-light">Light</a>
+    <a href="#" class="badge badge-dark">Dark</a>

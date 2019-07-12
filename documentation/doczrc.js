@@ -35,13 +35,24 @@ export default {
     },
     menu: [
         {
-            name: 'Guidelines',
+            name: 'Content',
             menu: [
-                'Introduction',
+            ],
+        },
+        {
+            name: 'Design',
+            menu: [
+
             ],
         },
         {
             name: 'Components',
+            menu: [
+
+            ],
+        },
+        {
+            name: 'Guides & Templates',
             menu: [
 
             ],

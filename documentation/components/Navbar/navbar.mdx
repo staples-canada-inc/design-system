@@ -4,9 +4,10 @@ route: /docs/components/navbar
 menu: Components
 ---
 
+import { Playground, Props } from "docz";
 import staplesLogo from "../../public/images/Staples_Logo_EN.svg";
 import staplesLogoWhite from "../../public/images/Staples_Logo_White_EN.svg";
-import { Playground, Props } from "docz";
+
 import {
 	Collapse,
 	Navbar,
@@ -24,36 +25,24 @@ import {
 
 # Navbar
 
-### General guidance
+A navigation bar is a section of a user interface intended to aid visitors in accessing information and navigating a site. Navigation bars are implemented in file browsers, web browsers and as a design element of web sites.
 
-A navigation bar is a section of a graphical user interface intended to aid visitors in accessing information. Navigation bars are implemented in file browsers, web browsers and as a design element of some web sites.
+### Responsive
 
-### Best practices
+Navbars are responsive by default. Their responsive behavior depends on the Collapse JavaScript plugin, and wrapping `.navbar` with `.navbar-expand{-sm|-md|-lg|-xl}`for responsive collapsing. If you prefer to limit a navbar's horizontal width, you can use containers to do so.
 
-Avoid using many dropdowns to make it simpler for the user. To make the colors more pleasent to the eye for our users, for better usability and customer experience. Also be specific with what the links will do but also keep wording to a minimum.
+### Supported content
 
-## How it works
-
-Here's what you need to know before getting started with the navbar:
-
--   Navbars require a wrapping `.navbar` with `.navbar-expand{-sm|-md|-lg|-xl}` for responsive collapsing and color scheme classes.
--   Navbars and their contents are fluid by default. Use optional continers to limit their horizontal width.
--   Use our spacing and flex utility classes for controlling spacing and alignment within navbars.
--   Navbars are responsive by default, but you can easily modify them to change that. Responsive behavior depends on our Collapse JavaScript plugin.
--   Ensure accessibility by using a `<nav>` element or, if using a more generic element such as a `<div>`, add a `role="navigation"` to every navbar to explicitly identify it as a landmark region for users of assistive technologies.
-
-## Supported content
-
-Navbars come with built-in support for a handful of sub-components. Choose from the following as needed:
+Navbars have built-in support for a handful of sub-components. Choose from the following as needed:
 
 -   `.navbar-brand` for your company, product, or project name.
 -   `.navbar-nav` for a full-height and lightweight navigation (including support for dropdowns).
--   `.navbar-toggler` for use with our collapse plugin and other navigation toggle behaviors.
+-   `.navbar-toggler` for use with our collapse plugin and other [navigation toggling](#responsive-behaviors) behaviors.
 -   `.form-inline` for any form controls and actions.
 -   `.navbar-text` for adding vertically centered strings of text.
 -   `.collapse.navbar-collapse` for grouping and hiding navbar contents by a parent breakpoint.
 
-### Navbar-Brand
+### Brand
 
 The `.navbar-brand` can be applied to most elements, but an anchor works best as some elements might require utility classes or custom styles.
 
@@ -63,10 +52,11 @@ The `.navbar-brand` can be applied to most elements, but an anchor works best as
 	</Navbar>
 
     <Navbar color="light" light expand="md">
-		<NavbarBrand href="/">
-			<img style={{ height: 30 }} src={staplesLogo} />
-		</NavbarBrand>
-	</Navbar>
+    	<NavbarBrand href="/">
+    		<img style={{ height: 30 }} src={staplesLogo} />
+    	</NavbarBrand>
+    </Navbar>
+
 </Playground>
 
     <nav class="navbar navbar-light bg-light">
@@ -87,7 +77,7 @@ And because we use classes for our navs, you can avoid the list-based approach e
 
 You may also utilize dropdowns in your navbar nav. Dropdown menus require a wrapping element for positioning, so be sure to use separate and nested elements for `.nav-item` and `.nav-link` as shown below.
 
-#### Navbar Example with Dropdown
+#### Navbar with Dropdown
 
 <Playground>
 	<Navbar color="light" light expand="md">
@@ -133,7 +123,11 @@ You may also utilize dropdowns in your navbar nav. Dropdown menus require a wrap
         </div>
     </nav>
 
-## Examples
+## Navbar Styles
+
+The navbar styling for Staples sub-sites can either be coloured in our brand red, lightest-gray or charcoal. The Staples logo should be left-justified with nav links right-justified on the same line.
+
+### Primary Theme
 
 <Playground>
 	<Navbar color="primary" dark expand="md">
@@ -163,8 +157,12 @@ You may also utilize dropdowns in your navbar nav. Dropdown menus require a wrap
 			</Nav>
 		</UncontrolledCollapse>
 	</Navbar>
-    <br/>
-    <Navbar color="light" light expand="md">
+</Playground>
+
+### Light-Gray Theme
+
+<Playground>
+	<Navbar color="light" light expand="md">
 		<NavbarBrand href="/">
 			<img style={{ height: 30 }} src={staplesLogo} />
 		</NavbarBrand>
@@ -191,7 +189,11 @@ You may also utilize dropdowns in your navbar nav. Dropdown menus require a wrap
 			</Nav>
 		</UncontrolledCollapse>
 	</Navbar>
-    <br/>
+</Playground>
+
+### Charcoal Theme
+
+<Playground>
     <Navbar color="dark" dark expand="md">
 		<NavbarBrand href="/">
 			<img style={{ height: 30 }} src={staplesLogoWhite} />
@@ -261,6 +263,10 @@ You may also utilize dropdowns in your navbar nav. Dropdown menus require a wrap
             </ul>
         </div>
     </nav>
+
+## Assistive Technology
+
+Ensure accessibility by using a `<nav>` element or, if using a more generic element such as a `<div>`, add a `role="navigation"` to every navbar to explicitly identify it as a landmark region for users of assistive technologies.
 
 ## CSS Classes
 

@@ -1,19 +1,37 @@
 ---
-name: Toggle
+name: Toggle / Switch
 route: /docs/components/toggle
 menu: Components
 ---
 
-## Toggles
+import { Playground, Props } from "docz";
+import { Label, CustomInput, FormGroup } from "reactstrap";
 
-## Switches
+# Toggle
 
-A switch has the markup of a custom checkbox but uses the `.custom-switch` class to render a toggle switch. Switches also support the `disabled` attribute.
+A toggle or switch has the markup of a custom checkbox but uses the `.custom-switch` class to render a toggle switch. Toggles also support the `disabled` attribute.
 
-### Examples oF Documentation - Switches
+### Simple Toggle
+
+<Playground>
+	<FormGroup>
+		<CustomInput
+			type="switch"
+			id="exampleCustomSwitch"
+			name="customSwitch"
+			label="Toggle this switch element"
+		/>
+		<CustomInput
+			type="switch"
+			id="exampleCustomSwitch2"
+			name="customSwitch"
+			label="Or this one!"
+		/>
+	</FormGroup>
+</Playground>
 
     <div class="custom-control custom-switch">
-        <input type="checkbox" class="custom-control-input" name="customSwitch" id="customSwitch1">
+        <input type="checkboxw" class="custom-control-input" name="customSwitch" id="customSwitch1">
         <label class="custom-control-label" for="customSwitch1">Toggle this switch element</label>
     </div>
     <div class="custom-control custom-switch">
@@ -21,13 +39,31 @@ A switch has the markup of a custom checkbox but uses the `.custom-switch` class
         <label class="custom-control-label" for="customSwitch2">Or this one!</label>
     </div>
 
-### Examples oF Documentation - Disabled Switches
+### Disabled Toggle
+
+<Playground>
+	<FormGroup>
+		<CustomInput
+			type="switch"
+			id="exampleCustomSwitch3"
+			label="But not this disabled one"
+			disabled
+		/>
+		<CustomInput
+			type="switch"
+			id="exampleCustomSwitch4"
+			label="Can't click this label to turn on!"
+			htmlFor="exampleCustomSwitch4_X"
+			disabled
+		/>
+	</FormGroup>
+</Playground>
 
     <div class="custom-control custom-switch">
         <input type="checkbox" class="custom-control-input" disabled id="customSwitch3">
-        <label class="custom-control-label" for="customSwitch3">Disabled switch element</label>
+        <label class="custom-control-label" for="customSwitch3">But not this disabled one</label>
     </div>
     <div class="custom-control custom-switch">
         <input type="checkbox" class="custom-control-input" disabled id="customSwitch4">
-        <label class="custom-control-label" for="customSwitch4">Disabled as well</label>
+        <label class="custom-control-label" for="customSwitch4">Can't click this label to turn on!</label>
     </div>
