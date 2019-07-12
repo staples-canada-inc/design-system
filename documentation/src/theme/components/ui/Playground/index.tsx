@@ -27,7 +27,7 @@ const whenFullscreen = (on: any, off: any) => (p: OverlayProps) =>
 const Overlay = styled.div<OverlayProps>`
   top: 0;
   left: 0;
-  z-index: ${whenFullscreen(9999, 0)};
+  z-index: ${whenFullscreen(9999, 3)};
   position: ${whenFullscreen('fixed', 'relative')};
   width: ${whenFullscreen('100vw', 'auto')};
   height: ${whenFullscreen('100vh', 'auto')};

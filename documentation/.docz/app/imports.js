@@ -11,13 +11,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-badge-badges" */ 'components/Badge/badges.mdx'
     ),
-  'components/Breadcrumb/breadcrumbs.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "components-breadcrumb-breadcrumbs" */ 'components/Breadcrumb/breadcrumbs.mdx'
-    ),
   'components/Button/buttons.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-button-buttons" */ 'components/Button/buttons.mdx'
+    ),
+  'components/Breadcrumb/breadcrumbs.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-breadcrumb-breadcrumbs" */ 'components/Breadcrumb/breadcrumbs.mdx'
     ),
   'components/Card/card.mdx': () =>
     import(
@@ -27,9 +27,9 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-checkbox-checkboxes" */ 'components/Checkbox/checkboxes.mdx'
     ),
-  'components/Dropdown/dropdown-menu.mdx': () =>
+  'components/Dropdown/dropdown.mdx': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "components-dropdown-dropdown-menu" */ 'components/Dropdown/dropdown-menu.mdx'
+      /* webpackPrefetch: true, webpackChunkName: "components-dropdown-dropdown" */ 'components/Dropdown/dropdown.mdx'
     ),
   'components/Form/form-grid.md': () =>
     import(
@@ -51,17 +51,25 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-radio-radios" */ 'components/Radio/radios.mdx'
     ),
+  'components/Spinners/spinners.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-spinners-spinners" */ 'components/Spinners/spinners.md'
+    ),
   'components/Spinners/spinners.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-spinners-spinners" */ 'components/Spinners/spinners.mdx'
     ),
-  'components/Text-Input/text_inputs.mdx': () =>
+  'components/Table/tables.mdx': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "components-text-input-text-inputs" */ 'components/Text-Input/text_inputs.mdx'
+      /* webpackPrefetch: true, webpackChunkName: "components-table-tables" */ 'components/Table/tables.mdx'
     ),
   'components/Toggles/toggles.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-toggles-toggles" */ 'components/Toggles/toggles.mdx'
+    ),
+  'components/Text-Input/text_inputs.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-text-input-text-inputs" */ 'components/Text-Input/text_inputs.mdx'
     ),
   'components/Tooltip/tooltips.mdx': () =>
     import(
