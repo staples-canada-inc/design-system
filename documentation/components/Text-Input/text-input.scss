@@ -19,7 +19,7 @@ input[type="text"],
     color: $dark-gray;
     background-color: $white;
     background-clip: padding-box;
-    border: 1px solid $light-gray;
+    border: 1px solid $mid-gray;
     border-radius: 0;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 
@@ -38,10 +38,6 @@ input[type="text"],
 //     border: 1px solid $mid-gray;
 // }
 
-input:valid,
-.form-control:valid {
-    border: 1px solid $mid-gray;
-}
 
 input[type="text"]:focus,
 .form-control:focus {
@@ -53,6 +49,9 @@ input[type="text"]:focus,
 }
 
 
+.form-group {
+    position: relative;
+}
 
 .btn-attached {
     margin: 0px !important;
@@ -65,6 +64,11 @@ input[type="text"]:focus,
 }
 
 
+select[multiple]:focus option:checked {
+    background: $secondary;
+}
+
+
 .custom-file {
     height: 46px;
 
@@ -72,7 +76,8 @@ input[type="text"]:focus,
         color: $light-gray;
     }
 
-    .custom-file-input {
+    .custom-file-input,
+    .form-control-file {
         height: 46px;
         padding: 1rem;
 

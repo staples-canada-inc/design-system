@@ -38,7 +38,7 @@ const Wrapper = styled.div<WrapperProps>`
 		// background: ${p => sidebarPrimary(p) || primaryColor(p)};
 	}
 
-	@media screen and (max-width: ${breakpoints.desktop}px) {
+	@media screen and (max-width: ${breakpoints.large}px) {
 		&:before {
 			height: ${p => (p.showBg ? "px" : 0)};
 		}

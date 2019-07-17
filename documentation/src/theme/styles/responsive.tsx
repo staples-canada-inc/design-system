@@ -1,13 +1,15 @@
 import facepaint from 'facepaint'
 
 export const breakpoints = {
-  mobile: 567,
-  tablet: 768,
-  desktop: 1200,
+  small: 576,
+  medium: 768,
+  large: 992,
+  xLarge: 1200,
 }
 
 export const mq = facepaint([
-  `@media(min-width: ${breakpoints.mobile}px)`,
-  `@media(min-width: ${breakpoints.tablet}px)`,
-  `@media(min-width: ${breakpoints.desktop}px)`,
+  `@media(min-width: ${breakpoints.small}px)`,
+  `@media(min-width: ${breakpoints.medium}px)`,
+  `@media(min-width: ${breakpoints.large}px)`,
+  `@media(min-width: ${breakpoints.xLarge}px)`,
 ])

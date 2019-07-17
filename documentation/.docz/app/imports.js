@@ -3,21 +3,21 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-alerts-alerts" */ 'components/Alerts/alerts.mdx'
     ),
-  'components/Borders/lines-&-borders.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "components-borders-lines-and-borders" */ 'components/Borders/lines-&-borders.md'
-    ),
   'components/Badge/badges.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-badge-badges" */ 'components/Badge/badges.mdx'
     ),
-  'components/Button/buttons.mdx': () =>
+  'components/Borders/lines-&-borders.md': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "components-button-buttons" */ 'components/Button/buttons.mdx'
+      /* webpackPrefetch: true, webpackChunkName: "components-borders-lines-and-borders" */ 'components/Borders/lines-&-borders.md'
     ),
   'components/Breadcrumb/breadcrumbs.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-breadcrumb-breadcrumbs" */ 'components/Breadcrumb/breadcrumbs.mdx'
+    ),
+  'components/Button/buttons.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-button-buttons" */ 'components/Button/buttons.mdx'
     ),
   'components/Card/card.mdx': () =>
     import(
@@ -35,9 +35,9 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-form-form-grid" */ 'components/Form/form-grid.md'
     ),
-  'components/Links/links.md': () =>
+  'components/Links/links.mdx': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "components-links-links" */ 'components/Links/links.md'
+      /* webpackPrefetch: true, webpackChunkName: "components-links-links" */ 'components/Links/links.mdx'
     ),
   'components/Modal/modal.mdx': () =>
     import(
@@ -47,13 +47,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-navbar-navbar" */ 'components/Navbar/navbar.mdx'
     ),
+  'components/Pagination/pagination.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-pagination-pagination" */ 'components/Pagination/pagination.mdx'
+    ),
   'components/Radio/radios.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-radio-radios" */ 'components/Radio/radios.mdx'
-    ),
-  'components/Spinners/spinners.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "components-spinners-spinners" */ 'components/Spinners/spinners.md'
     ),
   'components/Spinners/spinners.mdx': () =>
     import(
@@ -63,13 +63,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-table-tables" */ 'components/Table/tables.mdx'
     ),
+  'components/Text-Input/text-Input.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-text-input-text-input" */ 'components/Text-Input/text-Input.mdx'
+    ),
   'components/Toggles/toggles.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-toggles-toggles" */ 'components/Toggles/toggles.mdx'
-    ),
-  'components/Text-Input/text_inputs.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "components-text-input-text-inputs" */ 'components/Text-Input/text_inputs.mdx'
     ),
   'components/Tooltip/tooltips.mdx': () =>
     import(

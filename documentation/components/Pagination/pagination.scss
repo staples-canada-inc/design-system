@@ -1,22 +1,16 @@
 .page-link {
     border: none;
     padding: 0px;
-    margin-right: .5rem;
-    font-family: TT Norms Medium,Helvetica Neue,Arial,sans-serif;
+    margin: 0 .5rem;
+    font-family: TT Norms Medium, Helvetica Neue, Arial, sans-serif;
 }
 
 .page-text {
     margin-right: .5rem;
 }
 
-[class=page-item] .page-link:active {
-    color: #444;
-    text-decoration: none;
-}
-
 .page-link:hover {
     text-decoration: underline;
-    color: #008497;
     background-color: transparent;
 }
 
@@ -32,4 +26,13 @@
 
 .arrow-icon-open {
     transform: rotate(90deg);
+}
+
+
+.page-item.active .page-link {
+    color: $secondary;
+    z-index: 1;
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration: underline;
 }

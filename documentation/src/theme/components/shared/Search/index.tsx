@@ -10,7 +10,7 @@ const searchText = get("colors.searchText");
 const Wrapper = styled.div`
 	display: flex;
 	align-items: center;
-	padding: 5px 24px;
+	padding: 0px 24px;
     opacity: 1;
     margin-bottom: 30px;
 `;
