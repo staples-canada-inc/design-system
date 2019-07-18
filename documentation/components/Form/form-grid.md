@@ -1,6 +1,6 @@
 ---
 name: Forms
-route: /components/forms
+
 menu: Components
 ---
 

@@ -60,12 +60,12 @@
       "key": "components/Alerts/alerts.mdx",
       "value": {
         "name": "Alerts",
-        "route": "/components/alerts",
         "menu": "Components",
         "id": "a066673070280570593b87642e56feda",
         "filepath": "components/Alerts/alerts.mdx",
         "link": "",
         "slug": "components-alerts-alerts",
+        "route": "/components-alerts-alerts",
         "headings": [
           {
             "slug": "alerts",
@@ -99,12 +99,12 @@
       "key": "components/Badge/badges.mdx",
       "value": {
         "name": "Badges",
-        "route": "/components/badges",
         "menu": "Components",
         "id": "479c5b89f48368d8466f6d3103182bc8",
         "filepath": "components/Badge/badges.mdx",
         "link": "",
         "slug": "components-badge-badges",
+        "route": "/components-badge-badges",
         "headings": [
           {
             "slug": "badges",
@@ -143,12 +143,12 @@
       "key": "components/Borders/lines-&-borders.md",
       "value": {
         "name": "Borders",
-        "route": "/components/borders",
         "menu": "Components",
         "id": "4c17294e8c40b01554b5a858ee628105",
         "filepath": "components/Borders/lines-&-borders.md",
         "link": "",
         "slug": "components-borders-lines-and-borders",
+        "route": "/components-borders-lines-and-borders",
         "headings": [
           {
             "slug": "lines--borders",
@@ -209,15 +209,44 @@
       }
     },
     {
+      "key": "components/Breadcrumb/breadcrumbs.mdx",
+      "value": {
+        "name": "Breadcrumbs",
+        "menu": "Components",
+        "id": "ef88c7fa1642500f0d52cb8918a2649e",
+        "filepath": "components/Breadcrumb/breadcrumbs.mdx",
+        "link": "",
+        "slug": "components-breadcrumb-breadcrumbs",
+        "route": "/components-breadcrumb-breadcrumbs",
+        "headings": [
+          {
+            "slug": "breadcrumbs",
+            "depth": 1,
+            "value": "Breadcrumbs"
+          },
+          {
+            "slug": "changing-the-separator",
+            "depth": 3,
+            "value": "Changing the Separator"
+          },
+          {
+            "slug": "assistive-technology",
+            "depth": 3,
+            "value": "Assistive Technology"
+          }
+        ]
+      }
+    },
+    {
       "key": "components/Button/buttons.mdx",
       "value": {
         "title": "Buttons",
-        "route": "/components/buttons",
         "menu": "Components",
         "id": "23bb96c87c98a8a9d4a683ecf6272b35",
         "filepath": "components/Button/buttons.mdx",
         "link": "",
         "slug": "components-button-buttons",
+        "route": "/components-button-buttons",
         "name": "Buttons",
         "headings": [
           {
@@ -304,44 +333,15 @@
       }
     },
     {
-      "key": "components/Breadcrumb/breadcrumbs.mdx",
-      "value": {
-        "name": "Breadcrumbs",
-        "route": "/components/breadcrumbs",
-        "menu": "Components",
-        "id": "ef88c7fa1642500f0d52cb8918a2649e",
-        "filepath": "components/Breadcrumb/breadcrumbs.mdx",
-        "link": "",
-        "slug": "components-breadcrumb-breadcrumbs",
-        "headings": [
-          {
-            "slug": "breadcrumbs",
-            "depth": 1,
-            "value": "Breadcrumbs"
-          },
-          {
-            "slug": "changing-the-separator",
-            "depth": 3,
-            "value": "Changing the Separator"
-          },
-          {
-            "slug": "assistive-technology",
-            "depth": 3,
-            "value": "Assistive Technology"
-          }
-        ]
-      }
-    },
-    {
       "key": "components/Card/card.mdx",
       "value": {
         "name": "Card",
-        "route": "/components/Card",
         "menu": "Components",
         "id": "a99a8b721c84ab141da7e471ac722e64",
         "filepath": "components/Card/card.mdx",
         "link": "",
         "slug": "components-card-card",
+        "route": "/components-card-card",
         "headings": [
           {
             "slug": "card",
@@ -385,12 +385,12 @@
       "key": "components/Checkbox/checkboxes.mdx",
       "value": {
         "name": "Checkbox",
-        "route": "/components/checkbox",
         "menu": "Components",
         "id": "ce6be1bfc48233ff5ac4f37e5f6a60fb",
         "filepath": "components/Checkbox/checkboxes.mdx",
         "link": "",
         "slug": "components-checkbox-checkboxes",
+        "route": "/components-checkbox-checkboxes",
         "headings": [
           {
             "slug": "checkbox",
@@ -424,12 +424,12 @@
       "key": "components/Dropdown/dropdown.mdx",
       "value": {
         "name": "Dropdown",
-        "route": "/components/dropdown",
         "menu": "Components",
         "id": "e587aeba03e25ca7524f302c7d0b2113",
         "filepath": "components/Dropdown/dropdown.mdx",
         "link": "",
         "slug": "components-dropdown-dropdown",
+        "route": "/components-dropdown-dropdown",
         "headings": [
           {
             "slug": "dropdown-menu",
@@ -453,12 +453,12 @@
       "key": "components/Form/form-grid.md",
       "value": {
         "name": "Forms",
-        "route": "/components/forms",
         "menu": "Components",
         "id": "fa15768ffb89bb2a9edfb72621b1b76c",
         "filepath": "components/Form/form-grid.md",
         "link": "",
         "slug": "components-form-form-grid",
+        "route": "/components-form-form-grid",
         "headings": [
           {
             "slug": "form-grid",
@@ -472,12 +472,12 @@
       "key": "components/Links/links.mdx",
       "value": {
         "name": "Links",
-        "route": "/components/links",
         "menu": "Components",
         "id": "3d9bff7161aa0727c56f463cf87f7241",
         "filepath": "components/Links/links.mdx",
         "link": "",
         "slug": "components-links-links",
+        "route": "/components-links-links",
         "headings": [
           {
             "slug": "links",
@@ -506,12 +506,12 @@
       "key": "components/Modal/modal.mdx",
       "value": {
         "name": "Modal",
-        "route": "/components/modal",
         "menu": "Components",
         "id": "9c48e4aaa068a8f29f1471d5d02ba09e",
         "filepath": "components/Modal/modal.mdx",
         "link": "",
         "slug": "components-modal-modal",
+        "route": "/components-modal-modal",
         "headings": [
           {
             "slug": "modal",
@@ -620,12 +620,12 @@
       "key": "components/Navbar/navbar.mdx",
       "value": {
         "name": "Navbar",
-        "route": "/components/navbar",
         "menu": "Components",
         "id": "b035376490f845e864896c21bb3236ea",
         "filepath": "components/Navbar/navbar.mdx",
         "link": "",
         "slug": "components-navbar-navbar",
+        "route": "/components-navbar-navbar",
         "headings": [
           {
             "slug": "navbar",
@@ -694,12 +694,12 @@
       "key": "components/Pagination/pagination.mdx",
       "value": {
         "name": "Pagination",
-        "route": "/components/pagination",
         "menu": "Components",
         "id": "2a4bc1ec5eda0363dde22aede99c81ac",
         "filepath": "components/Pagination/pagination.mdx",
         "link": "",
         "slug": "components-pagination-pagination",
+        "route": "/components-pagination-pagination",
         "headings": [
           {
             "slug": "pagination",
@@ -743,12 +743,12 @@
       "key": "components/Radio/radios.mdx",
       "value": {
         "name": "Radio",
-        "route": "/components/radio",
         "menu": "Components",
         "id": "de062efe86338ee49799b1e341842f9d",
         "filepath": "components/Radio/radios.mdx",
         "link": "",
         "slug": "components-radio-radios",
+        "route": "/components-radio-radios",
         "headings": [
           {
             "slug": "radios",
@@ -804,49 +804,15 @@
       }
     },
     {
-      "key": "components/Spinners/spinners.mdx",
-      "value": {
-        "name": "Spinners",
-        "route": "/components/spinners",
-        "menu": "Components",
-        "id": "81c7e1b43be251d2a9f51a679601d4fc",
-        "filepath": "components/Spinners/spinners.mdx",
-        "link": "",
-        "slug": "components-spinners-spinners",
-        "headings": [
-          {
-            "slug": "spinners",
-            "depth": 1,
-            "value": "Spinners"
-          },
-          {
-            "slug": "primary-spinners",
-            "depth": 3,
-            "value": "Primary Spinners"
-          },
-          {
-            "slug": "secondary-spinner",
-            "depth": 3,
-            "value": "Secondary Spinner"
-          },
-          {
-            "slug": "assistive-technology",
-            "depth": 3,
-            "value": "Assistive Technology"
-          }
-        ]
-      }
-    },
-    {
       "key": "components/Table/tables.mdx",
       "value": {
         "name": "Tables",
-        "route": "/components/tables",
         "menu": "Components",
         "id": "fb6f5f694b2261713d4018a0f6d8a583",
         "filepath": "components/Table/tables.mdx",
         "link": "",
         "slug": "components-table-tables",
+        "route": "/components-table-tables",
         "headings": [
           {
             "slug": "tables",
@@ -967,15 +933,49 @@
       }
     },
     {
+      "key": "components/Spinners/spinners.mdx",
+      "value": {
+        "name": "Spinners",
+        "menu": "Components",
+        "id": "81c7e1b43be251d2a9f51a679601d4fc",
+        "filepath": "components/Spinners/spinners.mdx",
+        "link": "",
+        "slug": "components-spinners-spinners",
+        "route": "/components-spinners-spinners",
+        "headings": [
+          {
+            "slug": "spinners",
+            "depth": 1,
+            "value": "Spinners"
+          },
+          {
+            "slug": "primary-spinners",
+            "depth": 3,
+            "value": "Primary Spinners"
+          },
+          {
+            "slug": "secondary-spinner",
+            "depth": 3,
+            "value": "Secondary Spinner"
+          },
+          {
+            "slug": "assistive-technology",
+            "depth": 3,
+            "value": "Assistive Technology"
+          }
+        ]
+      }
+    },
+    {
       "key": "components/Text-Input/text-Input.mdx",
       "value": {
         "name": "Text Input",
-        "route": "/components/text-input",
         "menu": "Components",
         "id": "e110979cae53b7edbb085a8dbde65287",
         "filepath": "components/Text-Input/text-Input.mdx",
         "link": "",
         "slug": "components-text-input-text-input",
+        "route": "/components-text-input-text-input",
         "headings": [
           {
             "slug": "text-input",
@@ -1079,12 +1079,12 @@
       "key": "components/Toggles/toggles.mdx",
       "value": {
         "name": "Toggle / Switch",
-        "route": "/components/toggle",
         "menu": "Components",
         "id": "558ad99754f904526c5970f38ba48a64",
         "filepath": "components/Toggles/toggles.mdx",
         "link": "",
         "slug": "components-toggles-toggles",
+        "route": "/components-toggles-toggles",
         "headings": [
           {
             "slug": "toggle",
@@ -1108,12 +1108,12 @@
       "key": "components/Tooltip/tooltips.mdx",
       "value": {
         "name": "Tooltips",
-        "route": "/components/tooltips",
         "menu": "Components",
         "id": "3ba985da427597166b551ba4c8393c94",
         "filepath": "components/Tooltip/tooltips.mdx",
         "link": "",
         "slug": "components-tooltip-tooltips",
+        "route": "/components-tooltip-tooltips",
         "headings": [
           {
             "slug": "tooltips",
@@ -1232,25 +1232,12 @@
       "key": "pages/Content/graphic-treatment.mdx",
       "value": {
         "name": "Graphic Treatment",
-        "route": "/content/graphic-treatment",
         "menu": "Content",
         "id": "90076e258ece49dd3dc0865385add03b",
         "filepath": "pages/Content/graphic-treatment.mdx",
         "link": "",
         "slug": "pages-content-graphic-treatment",
-        "headings": []
-      }
-    },
-    {
-      "key": "pages/Content/photography.mdx",
-      "value": {
-        "name": "Photography",
-        "route": "/content/photography",
-        "menu": "Content",
-        "id": "8af5a832e7f1ddace180e84ca7138d6f",
-        "filepath": "pages/Content/photography.mdx",
-        "link": "",
-        "slug": "pages-content-photography",
+        "route": "/pages-content-graphic-treatment",
         "headings": []
       }
     },
@@ -1258,12 +1245,38 @@
       "key": "pages/Content/voice-tone.mdx",
       "value": {
         "name": "Graphic Treatment",
-        "route": "/content/graphic-treatment",
         "menu": "Content",
         "id": "af1abbd4cad3e85b33b91d4a2afe76c9",
         "filepath": "pages/Content/voice-tone.mdx",
         "link": "",
         "slug": "pages-content-voice-tone",
+        "route": "/pages-content-voice-tone",
+        "headings": []
+      }
+    },
+    {
+      "key": "pages/Content/photography.mdx",
+      "value": {
+        "name": "Photography",
+        "menu": "Content",
+        "id": "8af5a832e7f1ddace180e84ca7138d6f",
+        "filepath": "pages/Content/photography.mdx",
+        "link": "",
+        "slug": "pages-content-photography",
+        "route": "/pages-content-photography",
+        "headings": []
+      }
+    },
+    {
+      "key": "pages/Guides and Templates/accessibility.mdx",
+      "value": {
+        "name": "Accessibility",
+        "menu": "Guides & Templates",
+        "id": "d0cddb0bcd7cbcdc008b9386d4d2e5ab",
+        "filepath": "pages/Guides and Templates/accessibility.mdx",
+        "link": "",
+        "slug": "pages-guides-and-templates-accessibility",
+        "route": "/pages-guides-and-templates-accessibility",
         "headings": []
       }
     },
@@ -1271,12 +1284,12 @@
       "key": "pages/Design/accessible-design.mdx",
       "value": {
         "name": "Accessible Design",
-        "route": "/design/accessible-design",
         "menu": "Design",
         "id": "ded6afb88cc5c699a312e6221f0b05d1",
         "filepath": "pages/Design/accessible-design.mdx",
         "link": "",
         "slug": "pages-design-accessible-design",
+        "route": "/pages-design-accessible-design",
         "headings": [
           {
             "slug": "accessibility",
@@ -1505,12 +1518,12 @@
       "key": "pages/Design/colours.mdx",
       "value": {
         "name": "Colours",
-        "route": "/design/colours",
         "menu": "Design",
         "id": "01b4f3a8465ac4560d9218fd5d3648da",
         "filepath": "pages/Design/colours.mdx",
         "link": "",
         "slug": "pages-design-colours",
+        "route": "/pages-design-colours",
         "headings": [
           {
             "slug": "colours",
@@ -1569,12 +1582,12 @@
       "key": "pages/Design/grid.mdx",
       "value": {
         "name": "Grid",
-        "route": "/design/grid",
         "menu": "Design",
         "id": "c8ede95a2109e7f75337990cf14fc4d1",
         "filepath": "pages/Design/grid.mdx",
         "link": "",
         "slug": "pages-design-grid",
+        "route": "/pages-design-grid",
         "headings": [
           {
             "slug": "grid--layout",
@@ -1658,12 +1671,12 @@
       "key": "pages/Design/illustration.mdx",
       "value": {
         "name": "Illustration",
-        "route": "/design/illustration",
         "menu": "Design",
         "id": "47172f6c3204824097e349fbf81ca089",
         "filepath": "pages/Design/illustration.mdx",
         "link": "",
         "slug": "pages-design-illustration",
+        "route": "/pages-design-illustration",
         "headings": []
       }
     },
@@ -1671,12 +1684,12 @@
       "key": "pages/Design/typography.mdx",
       "value": {
         "name": "Typography",
-        "route": "/design/typography",
         "menu": "Design",
         "id": "2975de2b4ff7e43906500d62520c3317",
         "filepath": "pages/Design/typography.mdx",
         "link": "",
         "slug": "pages-design-typography",
+        "route": "/pages-design-typography",
         "headings": [
           {
             "slug": "typography",
@@ -1749,19 +1762,6 @@
             "value": "Scale"
           }
         ]
-      }
-    },
-    {
-      "key": "pages/Guides and Templates/accessibility.mdx",
-      "value": {
-        "name": "Accessibility",
-        "route": "/guides-templates/accessbility",
-        "menu": "Guides & Templates",
-        "id": "d0cddb0bcd7cbcdc008b9386d4d2e5ab",
-        "filepath": "pages/Guides and Templates/accessibility.mdx",
-        "link": "",
-        "slug": "pages-guides-and-templates-accessibility",
-        "headings": []
       }
     },
     {

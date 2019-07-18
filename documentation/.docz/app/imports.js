@@ -11,13 +11,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-borders-lines-and-borders" */ 'components/Borders/lines-&-borders.md'
     ),
-  'components/Button/buttons.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "components-button-buttons" */ 'components/Button/buttons.mdx'
-    ),
   'components/Breadcrumb/breadcrumbs.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-breadcrumb-breadcrumbs" */ 'components/Breadcrumb/breadcrumbs.mdx'
+    ),
+  'components/Button/buttons.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-button-buttons" */ 'components/Button/buttons.mdx'
     ),
   'components/Card/card.mdx': () =>
     import(
@@ -55,13 +55,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-radio-radios" */ 'components/Radio/radios.mdx'
     ),
-  'components/Spinners/spinners.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "components-spinners-spinners" */ 'components/Spinners/spinners.mdx'
-    ),
   'components/Table/tables.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-table-tables" */ 'components/Table/tables.mdx'
+    ),
+  'components/Spinners/spinners.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-spinners-spinners" */ 'components/Spinners/spinners.mdx'
     ),
   'components/Text-Input/text-Input.mdx': () =>
     import(
@@ -79,13 +79,17 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "pages-content-graphic-treatment" */ 'pages/Content/graphic-treatment.mdx'
     ),
+  'pages/Content/voice-tone.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "pages-content-voice-tone" */ 'pages/Content/voice-tone.mdx'
+    ),
   'pages/Content/photography.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "pages-content-photography" */ 'pages/Content/photography.mdx'
     ),
-  'pages/Content/voice-tone.mdx': () =>
+  'pages/Guides and Templates/accessibility.mdx': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "pages-content-voice-tone" */ 'pages/Content/voice-tone.mdx'
+      /* webpackPrefetch: true, webpackChunkName: "pages-guides-and-templates-accessibility" */ 'pages/Guides and Templates/accessibility.mdx'
     ),
   'pages/Design/accessible-design.mdx': () =>
     import(
@@ -106,10 +110,6 @@ export const imports = {
   'pages/Design/typography.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "pages-design-typography" */ 'pages/Design/typography.mdx'
-    ),
-  'pages/Guides and Templates/accessibility.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "pages-guides-and-templates-accessibility" */ 'pages/Guides and Templates/accessibility.mdx'
     ),
   'pages/Home/index.mdx': () =>
     import(
