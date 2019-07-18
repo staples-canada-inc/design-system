@@ -1,4 +1,8 @@
 export const imports = {
+  'components/Alerts/alerts.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-alerts-alerts" */ 'components/Alerts/alerts.mdx'
+    ),
   'components/Badge/badges.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-badge-badges" */ 'components/Badge/badges.mdx'
@@ -7,17 +11,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-borders-lines-and-borders" */ 'components/Borders/lines-&-borders.md'
     ),
-  'components/Alerts/alerts.mdx': () =>
+  'components/Button/buttons.mdx': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "components-alerts-alerts" */ 'components/Alerts/alerts.mdx'
+      /* webpackPrefetch: true, webpackChunkName: "components-button-buttons" */ 'components/Button/buttons.mdx'
     ),
   'components/Breadcrumb/breadcrumbs.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-breadcrumb-breadcrumbs" */ 'components/Breadcrumb/breadcrumbs.mdx'
-    ),
-  'components/Button/buttons.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "components-button-buttons" */ 'components/Button/buttons.mdx'
     ),
   'components/Card/card.mdx': () =>
     import(

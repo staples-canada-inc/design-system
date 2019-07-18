@@ -1,6 +1,6 @@
 ---
 name: Borders
-route: /docs/components/borders
+route: /components/borders
 menu: Components
 ---
 
