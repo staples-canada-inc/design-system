@@ -33,7 +33,6 @@
       }
     },
     "separator": "-",
-    "dest": "./dist",
     "indexHtml": "public/index.html",
     "theme": "src/theme/index",
     "typescript": true,

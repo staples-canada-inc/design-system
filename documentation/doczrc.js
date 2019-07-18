@@ -7,7 +7,6 @@ const SRC = path.resolve(__dirname, 'src')
 
 export default {
     title: 'Staples Design System',
-    dest: './dist',
     description: '',
     indexHtml: 'public/index.html',
     theme: 'src/theme/index',
