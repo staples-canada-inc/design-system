@@ -804,6 +804,40 @@
       }
     },
     {
+      "key": "components/Spinners/spinners.mdx",
+      "value": {
+        "name": "Spinners",
+        "menu": "Components",
+        "id": "81c7e1b43be251d2a9f51a679601d4fc",
+        "filepath": "components/Spinners/spinners.mdx",
+        "link": "",
+        "slug": "components-spinners-spinners",
+        "route": "/components-spinners-spinners",
+        "headings": [
+          {
+            "slug": "spinners",
+            "depth": 1,
+            "value": "Spinners"
+          },
+          {
+            "slug": "primary-spinners",
+            "depth": 3,
+            "value": "Primary Spinners"
+          },
+          {
+            "slug": "secondary-spinner",
+            "depth": 3,
+            "value": "Secondary Spinner"
+          },
+          {
+            "slug": "assistive-technology",
+            "depth": 3,
+            "value": "Assistive Technology"
+          }
+        ]
+      }
+    },
+    {
       "key": "components/Table/tables.mdx",
       "value": {
         "name": "Tables",
@@ -928,40 +962,6 @@
             "slug": "extra-large",
             "depth": 4,
             "value": "Extra-Large"
-          }
-        ]
-      }
-    },
-    {
-      "key": "components/Spinners/spinners.mdx",
-      "value": {
-        "name": "Spinners",
-        "menu": "Components",
-        "id": "81c7e1b43be251d2a9f51a679601d4fc",
-        "filepath": "components/Spinners/spinners.mdx",
-        "link": "",
-        "slug": "components-spinners-spinners",
-        "route": "/components-spinners-spinners",
-        "headings": [
-          {
-            "slug": "spinners",
-            "depth": 1,
-            "value": "Spinners"
-          },
-          {
-            "slug": "primary-spinners",
-            "depth": 3,
-            "value": "Primary Spinners"
-          },
-          {
-            "slug": "secondary-spinner",
-            "depth": 3,
-            "value": "Secondary Spinner"
-          },
-          {
-            "slug": "assistive-technology",
-            "depth": 3,
-            "value": "Assistive Technology"
           }
         ]
       }
@@ -1242,19 +1242,6 @@
       }
     },
     {
-      "key": "pages/Content/voice-tone.mdx",
-      "value": {
-        "name": "Graphic Treatment",
-        "menu": "Content",
-        "id": "af1abbd4cad3e85b33b91d4a2afe76c9",
-        "filepath": "pages/Content/voice-tone.mdx",
-        "link": "",
-        "slug": "pages-content-voice-tone",
-        "route": "/pages-content-voice-tone",
-        "headings": []
-      }
-    },
-    {
       "key": "pages/Content/photography.mdx",
       "value": {
         "name": "Photography",
@@ -1268,15 +1255,15 @@
       }
     },
     {
-      "key": "pages/Guides and Templates/accessibility.mdx",
+      "key": "pages/Content/voice-tone.mdx",
       "value": {
-        "name": "Accessibility",
-        "menu": "Guides & Templates",
-        "id": "d0cddb0bcd7cbcdc008b9386d4d2e5ab",
-        "filepath": "pages/Guides and Templates/accessibility.mdx",
+        "name": "Graphic Treatment",
+        "menu": "Content",
+        "id": "af1abbd4cad3e85b33b91d4a2afe76c9",
+        "filepath": "pages/Content/voice-tone.mdx",
         "link": "",
-        "slug": "pages-guides-and-templates-accessibility",
-        "route": "/pages-guides-and-templates-accessibility",
+        "slug": "pages-content-voice-tone",
+        "route": "/pages-content-voice-tone",
         "headings": []
       }
     },
@@ -1762,6 +1749,19 @@
             "value": "Scale"
           }
         ]
+      }
+    },
+    {
+      "key": "pages/Guides and Templates/accessibility.mdx",
+      "value": {
+        "name": "Accessibility",
+        "menu": "Guides & Templates",
+        "id": "d0cddb0bcd7cbcdc008b9386d4d2e5ab",
+        "filepath": "pages/Guides and Templates/accessibility.mdx",
+        "link": "",
+        "slug": "pages-guides-and-templates-accessibility",
+        "route": "/pages-guides-and-templates-accessibility",
+        "headings": []
       }
     },
     {

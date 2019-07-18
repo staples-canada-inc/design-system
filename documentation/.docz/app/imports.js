@@ -55,13 +55,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-radio-radios" */ 'components/Radio/radios.mdx'
     ),
-  'components/Table/tables.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "components-table-tables" */ 'components/Table/tables.mdx'
-    ),
   'components/Spinners/spinners.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-spinners-spinners" */ 'components/Spinners/spinners.mdx'
+    ),
+  'components/Table/tables.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-table-tables" */ 'components/Table/tables.mdx'
     ),
   'components/Text-Input/text-Input.mdx': () =>
     import(
@@ -79,17 +79,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "pages-content-graphic-treatment" */ 'pages/Content/graphic-treatment.mdx'
     ),
-  'pages/Content/voice-tone.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "pages-content-voice-tone" */ 'pages/Content/voice-tone.mdx'
-    ),
   'pages/Content/photography.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "pages-content-photography" */ 'pages/Content/photography.mdx'
     ),
-  'pages/Guides and Templates/accessibility.mdx': () =>
+  'pages/Content/voice-tone.mdx': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "pages-guides-and-templates-accessibility" */ 'pages/Guides and Templates/accessibility.mdx'
+      /* webpackPrefetch: true, webpackChunkName: "pages-content-voice-tone" */ 'pages/Content/voice-tone.mdx'
     ),
   'pages/Design/accessible-design.mdx': () =>
     import(
@@ -110,6 +106,10 @@ export const imports = {
   'pages/Design/typography.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "pages-design-typography" */ 'pages/Design/typography.mdx'
+    ),
+  'pages/Guides and Templates/accessibility.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "pages-guides-and-templates-accessibility" */ 'pages/Guides and Templates/accessibility.mdx'
     ),
   'pages/Home/index.mdx': () =>
     import(
