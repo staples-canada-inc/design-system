@@ -96,50 +96,6 @@
       }
     },
     {
-      "key": "components/Badge/badges.mdx",
-      "value": {
-        "name": "Badges",
-        "route": "/docs/components/badges",
-        "menu": "Components",
-        "id": "479c5b89f48368d8466f6d3103182bc8",
-        "filepath": "components/Badge/badges.mdx",
-        "link": "",
-        "slug": "components-badge-badges",
-        "headings": [
-          {
-            "slug": "badges",
-            "depth": 1,
-            "value": "Badges"
-          },
-          {
-            "slug": "scale-to-parent",
-            "depth": 2,
-            "value": "Scale to Parent"
-          },
-          {
-            "slug": "notification",
-            "depth": 2,
-            "value": "Notification"
-          },
-          {
-            "slug": "contextual-variations",
-            "depth": 2,
-            "value": "Contextual variations"
-          },
-          {
-            "slug": "pill-badges",
-            "depth": 3,
-            "value": "Pill badges"
-          },
-          {
-            "slug": "links",
-            "depth": 3,
-            "value": "Links"
-          }
-        ]
-      }
-    },
-    {
       "key": "components/Borders/lines-&-borders.md",
       "value": {
         "name": "Borders",
@@ -204,6 +160,50 @@
             "slug": "horizontal-line",
             "depth": 3,
             "value": "Horizontal Line"
+          }
+        ]
+      }
+    },
+    {
+      "key": "components/Badge/badges.mdx",
+      "value": {
+        "name": "Badges",
+        "route": "/docs/components/badges",
+        "menu": "Components",
+        "id": "479c5b89f48368d8466f6d3103182bc8",
+        "filepath": "components/Badge/badges.mdx",
+        "link": "",
+        "slug": "components-badge-badges",
+        "headings": [
+          {
+            "slug": "badges",
+            "depth": 1,
+            "value": "Badges"
+          },
+          {
+            "slug": "scale-to-parent",
+            "depth": 2,
+            "value": "Scale to Parent"
+          },
+          {
+            "slug": "notification",
+            "depth": 2,
+            "value": "Notification"
+          },
+          {
+            "slug": "contextual-variations",
+            "depth": 2,
+            "value": "Contextual variations"
+          },
+          {
+            "slug": "pill-badges",
+            "depth": 3,
+            "value": "Pill badges"
+          },
+          {
+            "slug": "links",
+            "depth": 3,
+            "value": "Links"
           }
         ]
       }
@@ -1242,6 +1242,19 @@
       }
     },
     {
+      "key": "pages/Content/voice-tone.mdx",
+      "value": {
+        "name": "Graphic Treatment",
+        "route": "/docs/content/graphic-treatment",
+        "menu": "Content",
+        "id": "af1abbd4cad3e85b33b91d4a2afe76c9",
+        "filepath": "pages/Content/voice-tone.mdx",
+        "link": "",
+        "slug": "pages-content-voice-tone",
+        "headings": []
+      }
+    },
+    {
       "key": "pages/Content/photography.mdx",
       "value": {
         "name": "Photography",
@@ -1255,16 +1268,67 @@
       }
     },
     {
-      "key": "pages/Content/voice-tone.mdx",
+      "key": "pages/Design/colours.mdx",
       "value": {
-        "name": "Graphic Treatment",
-        "route": "/docs/content/graphic-treatment",
-        "menu": "Content",
-        "id": "af1abbd4cad3e85b33b91d4a2afe76c9",
-        "filepath": "pages/Content/voice-tone.mdx",
+        "name": "Colours",
+        "route": "/docs/design/colours",
+        "menu": "Design",
+        "id": "01b4f3a8465ac4560d9218fd5d3648da",
+        "filepath": "pages/Design/colours.mdx",
         "link": "",
-        "slug": "pages-content-voice-tone",
-        "headings": []
+        "slug": "pages-design-colours",
+        "headings": [
+          {
+            "slug": "colours",
+            "depth": 1,
+            "value": "Colours"
+          },
+          {
+            "slug": "remaining-consistent-across-staples-various-digital-products-whether-it-be-applications-subsites-or-other-experiences-requires-rules-around-colour-usage",
+            "depth": 4,
+            "value": "Remaining consistent across Staples’ various digital products, whether it be applications, subsites or other experiences, requires rules around colour usage."
+          },
+          {
+            "slug": "colour-palette",
+            "depth": 2,
+            "value": "Colour Palette"
+          },
+          {
+            "slug": "applying-colour",
+            "depth": 2,
+            "value": "Applying Colour"
+          },
+          {
+            "slug": "usage",
+            "depth": 2,
+            "value": "Usage"
+          },
+          {
+            "slug": "colour-in-the-staples-design-system-is-managed-using-colour-tokens-this-allows-us-to-remain-consistent-across-all-our-digital-interfaces-and-applications",
+            "depth": 4,
+            "value": "Colour in the Staples Design System is managed using colour tokens. This allows us to remain consistent across all our digital interfaces and applications."
+          },
+          {
+            "slug": "colour-tokens",
+            "depth": 3,
+            "value": "Colour Tokens"
+          },
+          {
+            "slug": "neutral-colours",
+            "depth": 3,
+            "value": "Neutral Colours"
+          },
+          {
+            "slug": "brand-colours",
+            "depth": 3,
+            "value": "Brand Colours"
+          },
+          {
+            "slug": "system-colours",
+            "depth": 3,
+            "value": "System Colours"
+          }
+        ]
       }
     },
     {
@@ -1497,70 +1561,6 @@
             "slug": "golden-rule-of-javascript",
             "depth": 3,
             "value": "Golden Rule of JavaScript"
-          }
-        ]
-      }
-    },
-    {
-      "key": "pages/Design/colours.mdx",
-      "value": {
-        "name": "Colours",
-        "route": "/docs/design/colours",
-        "menu": "Design",
-        "id": "01b4f3a8465ac4560d9218fd5d3648da",
-        "filepath": "pages/Design/colours.mdx",
-        "link": "",
-        "slug": "pages-design-colours",
-        "headings": [
-          {
-            "slug": "colours",
-            "depth": 1,
-            "value": "Colours"
-          },
-          {
-            "slug": "remaining-consistent-across-staples-various-digital-products-whether-it-be-applications-subsites-or-other-experiences-requires-rules-around-colour-usage",
-            "depth": 4,
-            "value": "Remaining consistent across Staples’ various digital products, whether it be applications, subsites or other experiences, requires rules around colour usage."
-          },
-          {
-            "slug": "colour-palette",
-            "depth": 2,
-            "value": "Colour Palette"
-          },
-          {
-            "slug": "applying-colour",
-            "depth": 2,
-            "value": "Applying Colour"
-          },
-          {
-            "slug": "usage",
-            "depth": 2,
-            "value": "Usage"
-          },
-          {
-            "slug": "colour-in-the-staples-design-system-is-managed-using-colour-tokens-this-allows-us-to-remain-consistent-across-all-our-digital-interfaces-and-applications",
-            "depth": 4,
-            "value": "Colour in the Staples Design System is managed using colour tokens. This allows us to remain consistent across all our digital interfaces and applications."
-          },
-          {
-            "slug": "colour-tokens",
-            "depth": 3,
-            "value": "Colour Tokens"
-          },
-          {
-            "slug": "neutral-colours",
-            "depth": 3,
-            "value": "Neutral Colours"
-          },
-          {
-            "slug": "brand-colours",
-            "depth": 3,
-            "value": "Brand Colours"
-          },
-          {
-            "slug": "system-colours",
-            "depth": 3,
-            "value": "System Colours"
           }
         ]
       }

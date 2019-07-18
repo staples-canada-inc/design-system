@@ -3,25 +3,25 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-alerts-alerts" */ 'components/Alerts/alerts.mdx'
     ),
-  'components/Badge/badges.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "components-badge-badges" */ 'components/Badge/badges.mdx'
-    ),
   'components/Borders/lines-&-borders.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-borders-lines-and-borders" */ 'components/Borders/lines-&-borders.md'
+    ),
+  'components/Badge/badges.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-badge-badges" */ 'components/Badge/badges.mdx'
     ),
   'components/Breadcrumb/breadcrumbs.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-breadcrumb-breadcrumbs" */ 'components/Breadcrumb/breadcrumbs.mdx'
     ),
-  'components/Card/card.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "components-card-card" */ 'components/Card/card.mdx'
-    ),
   'components/Button/buttons.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-button-buttons" */ 'components/Button/buttons.mdx'
+    ),
+  'components/Card/card.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-card-card" */ 'components/Card/card.mdx'
     ),
   'components/Checkbox/checkboxes.mdx': () =>
     import(
@@ -31,13 +31,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-dropdown-dropdown" */ 'components/Dropdown/dropdown.mdx'
     ),
-  'components/Links/links.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "components-links-links" */ 'components/Links/links.mdx'
-    ),
   'components/Form/form-grid.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-form-form-grid" */ 'components/Form/form-grid.md'
+    ),
+  'components/Links/links.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-links-links" */ 'components/Links/links.mdx'
     ),
   'components/Modal/modal.mdx': () =>
     import(
@@ -79,29 +79,29 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "pages-content-graphic-treatment" */ 'pages/Content/graphic-treatment.mdx'
     ),
-  'pages/Content/photography.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "pages-content-photography" */ 'pages/Content/photography.mdx'
-    ),
   'pages/Content/voice-tone.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "pages-content-voice-tone" */ 'pages/Content/voice-tone.mdx'
     ),
-  'pages/Design/accessible-design.mdx': () =>
+  'pages/Content/photography.mdx': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "pages-design-accessible-design" */ 'pages/Design/accessible-design.mdx'
+      /* webpackPrefetch: true, webpackChunkName: "pages-content-photography" */ 'pages/Content/photography.mdx'
     ),
   'pages/Design/colours.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "pages-design-colours" */ 'pages/Design/colours.mdx'
     ),
-  'pages/Design/illustration.mdx': () =>
+  'pages/Design/accessible-design.mdx': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "pages-design-illustration" */ 'pages/Design/illustration.mdx'
+      /* webpackPrefetch: true, webpackChunkName: "pages-design-accessible-design" */ 'pages/Design/accessible-design.mdx'
     ),
   'pages/Design/grid.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "pages-design-grid" */ 'pages/Design/grid.mdx'
+    ),
+  'pages/Design/illustration.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "pages-design-illustration" */ 'pages/Design/illustration.mdx'
     ),
   'pages/Design/typography.mdx': () =>
     import(
