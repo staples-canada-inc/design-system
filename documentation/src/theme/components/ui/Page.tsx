@@ -5,10 +5,10 @@ import Edit from 'react-feather/dist/icons/edit-2'
 import styled from 'styled-components'
 
 import { Hamburger } from "../shared/sidebar/Hamburger";
-import { Container, Col, Row } from 'reactstrap'
+import { Container, Col } from 'reactstrap'
 import { HeaderNavbar } from '../shared/HeaderNavbar'
 import { ButtonLink } from './Button'
-import { GithubLink, Main, Sidebar } from '../shared'
+import { Main, Sidebar } from '../shared'
 import { get } from '../../utils/theme'
 import { mq, breakpoints } from '../../styles/responsive'
 

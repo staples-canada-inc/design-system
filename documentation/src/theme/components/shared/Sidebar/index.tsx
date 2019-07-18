@@ -1,15 +1,13 @@
 import * as React from "react";
-import { Fragment, SFC, useState, useEffect } from "react";
-import { useMenus, useWindowSize, usePrevious } from "docz";
+import { Fragment, SFC, useState } from "react";
+import { useMenus } from "docz";
 import styled from "styled-components";
 
 import { Search } from "../Search";
 import { Menu } from "./Menu";
 
-import { Hamburger } from "./Hamburger";
-
 import { get } from "../../../utils/theme";
-import { mq, breakpoints } from "../../../styles/responsive";
+import { mq } from "../../../styles/responsive";
 
 
 const sidebarBg = get("colors.sidebarBg");
