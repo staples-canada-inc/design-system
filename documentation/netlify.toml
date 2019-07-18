@@ -1,5 +1,6 @@
 # COMMENT: This a rule for Single Page Applications as Docz site is one
 [[redirects]]
   from = "/*"
-  to = "/"
+  to = "/index.html"
   status = 200
+  force = false

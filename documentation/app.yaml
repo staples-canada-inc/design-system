@@ -1,0 +1,40 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+handlers:
+    # Handle the main page by serving the index page.
+    # Note the $ to specify the end of the path, since app.yaml does prefix matching.
+    - url: /$
+      static_files: dist/index.html
+      upload: dist/index.html
+
+    # Handle folder urls by serving the index.html page inside.
+    - url: /(.*)/$
+      static_files: dist/\1/index.html
+      upload: dist/.*/index.html
+
+    # Handle nearly every other file by just serving it.
+    - url: /(.+)
+      static_files: dist/\1
+      upload: dist/(.*)
+
+skip_files:
+    - ^(.*/)?app\.yaml
+    - ^(.*/)?app\.yml
+    - ^(.*/)?#.*#
+    - ^(.*/)?.*~
+    - ^(.*/)?.*\.py[co]
+    - ^(.*/)?.*/RCS/.*
+    - ^(.*/)?\..*
+    - ^(.*/)?tests$
+    - ^(.*/)?test$
+    - ^test/(.*/)?
+    - ^COPYING.LESSER
+    - ^README\..*
+    - \.gitignore
+    - ^\.git/.*
+    - \.*\.lint$
+    - ^fabfile\.py
+    - ^testrunner\.py
+    - ^grunt\.js
+    - ^node_modules/(.*/)?
