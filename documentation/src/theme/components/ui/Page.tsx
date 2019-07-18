@@ -4,7 +4,7 @@ import { PageProps, useWindowSize, usePrevious } from 'docz'
 import Edit from 'react-feather/dist/icons/edit-2'
 import styled from 'styled-components'
 
-import { Hamburger } from "../shared/sidebar/Hamburger";
+import { Hamburger } from "../shared/Sidebar/Hamburger";
 import { Container, Col } from 'reactstrap'
 import { HeaderNavbar } from '../shared/HeaderNavbar'
 import { ButtonLink } from './Button'
