@@ -1,8 +1,4 @@
 export const imports = {
-  'components/Alerts/alerts.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "components-alerts-alerts" */ 'components/Alerts/alerts.mdx'
-    ),
   'components/Badge/badges.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-badge-badges" */ 'components/Badge/badges.mdx'
@@ -10,6 +6,10 @@ export const imports = {
   'components/Borders/lines-&-borders.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-borders-lines-and-borders" */ 'components/Borders/lines-&-borders.md'
+    ),
+  'components/Alerts/alerts.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-alerts-alerts" */ 'components/Alerts/alerts.mdx'
     ),
   'components/Breadcrumb/breadcrumbs.mdx': () =>
     import(
@@ -79,13 +79,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "pages-content-graphic-treatment" */ 'pages/Content/graphic-treatment.mdx'
     ),
-  'pages/Content/voice-tone.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "pages-content-voice-tone" */ 'pages/Content/voice-tone.mdx'
-    ),
   'pages/Content/photography.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "pages-content-photography" */ 'pages/Content/photography.mdx'
+    ),
+  'pages/Content/voice-tone.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "pages-content-voice-tone" */ 'pages/Content/voice-tone.mdx'
     ),
   'pages/Design/accessible-design.mdx': () =>
     import(

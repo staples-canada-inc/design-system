@@ -57,54 +57,15 @@
   },
   "entries": [
     {
-      "key": "components/Alerts/alerts.mdx",
-      "value": {
-        "name": "Alerts",
-        "route": "/docs/components/alerts",
-        "menu": "Components",
-        "id": "a066673070280570593b87642e56feda",
-        "filepath": "components/Alerts/alerts.mdx",
-        "link": "",
-        "slug": "components-alerts-alerts",
-        "headings": [
-          {
-            "slug": "alerts",
-            "depth": 1,
-            "value": "Alerts"
-          },
-          {
-            "slug": "simple-alerts",
-            "depth": 2,
-            "value": "Simple Alerts"
-          },
-          {
-            "slug": "alerts-with-links",
-            "depth": 2,
-            "value": "Alerts with Links"
-          },
-          {
-            "slug": "large-alerts",
-            "depth": 2,
-            "value": "Large Alerts"
-          },
-          {
-            "slug": "dismiss-alerts",
-            "depth": 2,
-            "value": "Dismiss Alerts"
-          }
-        ]
-      }
-    },
-    {
       "key": "components/Badge/badges.mdx",
       "value": {
         "name": "Badges",
-        "route": "/docs/components/badges",
-        "menu": "Components",
         "id": "479c5b89f48368d8466f6d3103182bc8",
         "filepath": "components/Badge/badges.mdx",
         "link": "",
         "slug": "components-badge-badges",
+        "route": "/components-badge-badges",
+        "menu": "",
         "headings": [
           {
             "slug": "badges",
@@ -204,6 +165,45 @@
             "slug": "horizontal-line",
             "depth": 3,
             "value": "Horizontal Line"
+          }
+        ]
+      }
+    },
+    {
+      "key": "components/Alerts/alerts.mdx",
+      "value": {
+        "name": "Alerts",
+        "route": "/docs/components/alerts",
+        "menu": "Components",
+        "id": "a066673070280570593b87642e56feda",
+        "filepath": "components/Alerts/alerts.mdx",
+        "link": "",
+        "slug": "components-alerts-alerts",
+        "headings": [
+          {
+            "slug": "alerts",
+            "depth": 1,
+            "value": "Alerts"
+          },
+          {
+            "slug": "simple-alerts",
+            "depth": 2,
+            "value": "Simple Alerts"
+          },
+          {
+            "slug": "alerts-with-links",
+            "depth": 2,
+            "value": "Alerts with Links"
+          },
+          {
+            "slug": "large-alerts",
+            "depth": 2,
+            "value": "Large Alerts"
+          },
+          {
+            "slug": "dismiss-alerts",
+            "depth": 2,
+            "value": "Dismiss Alerts"
           }
         ]
       }
@@ -1242,19 +1242,6 @@
       }
     },
     {
-      "key": "pages/Content/voice-tone.mdx",
-      "value": {
-        "name": "Graphic Treatment",
-        "route": "/docs/content/graphic-treatment",
-        "menu": "Content",
-        "id": "af1abbd4cad3e85b33b91d4a2afe76c9",
-        "filepath": "pages/Content/voice-tone.mdx",
-        "link": "",
-        "slug": "pages-content-voice-tone",
-        "headings": []
-      }
-    },
-    {
       "key": "pages/Content/photography.mdx",
       "value": {
         "name": "Photography",
@@ -1264,6 +1251,19 @@
         "filepath": "pages/Content/photography.mdx",
         "link": "",
         "slug": "pages-content-photography",
+        "headings": []
+      }
+    },
+    {
+      "key": "pages/Content/voice-tone.mdx",
+      "value": {
+        "name": "Graphic Treatment",
+        "route": "/docs/content/graphic-treatment",
+        "menu": "Content",
+        "id": "af1abbd4cad3e85b33b91d4a2afe76c9",
+        "filepath": "pages/Content/voice-tone.mdx",
+        "link": "",
+        "slug": "pages-content-voice-tone",
         "headings": []
       }
     },
