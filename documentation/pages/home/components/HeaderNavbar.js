@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Container, Row, Col } from 'reactstrap';
 
+
 import logo from '@images/Staples_Logo_White_EN.svg'
 
 export const HeaderNavbar = () => {

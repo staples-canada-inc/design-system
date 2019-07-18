@@ -15,13 +15,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-breadcrumb-breadcrumbs" */ 'components/Breadcrumb/breadcrumbs.mdx'
     ),
-  'components/Button/buttons.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "components-button-buttons" */ 'components/Button/buttons.mdx'
-    ),
   'components/Card/card.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-card-card" */ 'components/Card/card.mdx'
+    ),
+  'components/Button/buttons.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-button-buttons" */ 'components/Button/buttons.mdx'
     ),
   'components/Checkbox/checkboxes.mdx': () =>
     import(
@@ -31,13 +31,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-dropdown-dropdown" */ 'components/Dropdown/dropdown.mdx'
     ),
-  'components/Form/form-grid.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "components-form-form-grid" */ 'components/Form/form-grid.md'
-    ),
   'components/Links/links.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-links-links" */ 'components/Links/links.mdx'
+    ),
+  'components/Form/form-grid.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-form-form-grid" */ 'components/Form/form-grid.md'
     ),
   'components/Modal/modal.mdx': () =>
     import(
@@ -95,13 +95,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "pages-design-colours" */ 'pages/Design/colours.mdx'
     ),
-  'pages/Design/grid.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "pages-design-grid" */ 'pages/Design/grid.mdx'
-    ),
   'pages/Design/illustration.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "pages-design-illustration" */ 'pages/Design/illustration.mdx'
+    ),
+  'pages/Design/grid.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "pages-design-grid" */ 'pages/Design/grid.mdx'
     ),
   'pages/Design/typography.mdx': () =>
     import(
