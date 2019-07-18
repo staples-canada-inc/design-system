@@ -1242,19 +1242,6 @@
       }
     },
     {
-      "key": "pages/Content/photography.mdx",
-      "value": {
-        "name": "Photography",
-        "route": "/docs/content/photography",
-        "menu": "Content",
-        "id": "8af5a832e7f1ddace180e84ca7138d6f",
-        "filepath": "pages/Content/photography.mdx",
-        "link": "",
-        "slug": "pages-content-photography",
-        "headings": []
-      }
-    },
-    {
       "key": "pages/Content/voice-tone.mdx",
       "value": {
         "name": "Graphic Treatment",
@@ -1264,6 +1251,19 @@
         "filepath": "pages/Content/voice-tone.mdx",
         "link": "",
         "slug": "pages-content-voice-tone",
+        "headings": []
+      }
+    },
+    {
+      "key": "pages/Content/photography.mdx",
+      "value": {
+        "name": "Photography",
+        "route": "/docs/content/photography",
+        "menu": "Content",
+        "id": "8af5a832e7f1ddace180e84ca7138d6f",
+        "filepath": "pages/Content/photography.mdx",
+        "link": "",
+        "slug": "pages-content-photography",
         "headings": []
       }
     },

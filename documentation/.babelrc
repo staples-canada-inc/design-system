@@ -12,7 +12,7 @@
                     "~styles": "src/theme/styles",
                     "@fonts/*": "public/fonts/",
                     "@images/*": "public/images/",
-                    "@styles/*": "public/css/",
+                    "@styles/*": "public/css/"
                 }
             }
         ],

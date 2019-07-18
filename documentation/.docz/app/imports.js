@@ -3,13 +3,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-alerts-alerts" */ 'components/Alerts/alerts.mdx'
     ),
-  'components/Borders/lines-&-borders.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "components-borders-lines-and-borders" */ 'components/Borders/lines-&-borders.md'
-    ),
   'components/Badge/badges.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "components-badge-badges" */ 'components/Badge/badges.mdx'
+    ),
+  'components/Borders/lines-&-borders.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "components-borders-lines-and-borders" */ 'components/Borders/lines-&-borders.md'
     ),
   'components/Breadcrumb/breadcrumbs.mdx': () =>
     import(
@@ -87,13 +87,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "pages-content-photography" */ 'pages/Content/photography.mdx'
     ),
-  'pages/Design/colours.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "pages-design-colours" */ 'pages/Design/colours.mdx'
-    ),
   'pages/Design/accessible-design.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "pages-design-accessible-design" */ 'pages/Design/accessible-design.mdx'
+    ),
+  'pages/Design/colours.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "pages-design-colours" */ 'pages/Design/colours.mdx'
     ),
   'pages/Design/grid.mdx': () =>
     import(
